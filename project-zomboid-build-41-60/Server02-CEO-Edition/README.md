@@ -1,3 +1,4 @@
+# Notes from "The CEO"
 copy paste the map_sand file to the save we're going to use.<br>
 to be precise<br>
 <br>
