@@ -24,6 +24,7 @@ FH
 Freeman's_Crowbar
 fuelsideindicator
 HBVMW
+HealthBars
 HECUGrunt
 HowStrongIsThatWall
 isoContainers
@@ -36,7 +37,6 @@ LitSortOGSN_rice
 LitSortOGSN
 LitSortOGSN_readOnePage
 manageContainers
-MinimalDisplayBars
 MoarCanOpeners
 modoptions
 OutTheWindow
@@ -51,9 +51,9 @@ sizelabels41
 SkillRecoveryJournal
 sleeponit
 SwapIt
-TheStar
 Trash and Corpses
 TrueActionsDancing
 tsarslib
 MattSimpleAddonsFriuts
+ZedHealthNew
 TMC_ZuperCart
