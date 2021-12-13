@@ -28,7 +28,7 @@ HealthBars
 HECUGrunt
 HowStrongIsThatWall
 isoContainers
-ItemTweakerAPI
+ItemTweakerAPI (There are 2 mod folders using the same ID)
 KillCount
 LitSortOGSN_chocolate
 LitSortOGSN_diamond
