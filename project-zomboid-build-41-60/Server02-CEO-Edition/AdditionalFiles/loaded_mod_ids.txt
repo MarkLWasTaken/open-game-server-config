@@ -57,5 +57,5 @@ Trash and Corpses
 TrueActionsDancing
 tsarslib
 MattSimpleAddonsFriuts
-ZedHealthNew
+ZedHealthNew (Note: Client-side only)
 TMC_ZuperCart
