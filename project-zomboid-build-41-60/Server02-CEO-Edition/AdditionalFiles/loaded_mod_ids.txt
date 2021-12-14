@@ -1,4 +1,5 @@
 
+ammocraft
 lgd_antibodies
 Arsenal(26)GunFighter
 ATA_Jeep
@@ -20,6 +21,7 @@ EasyConfigChucked
 EasyEngineRebuild
 EasyLightbarRepair
 eris_food_expiry
+FireBook
 FH
 Freeman's_Crowbar
 fuelsideindicator
