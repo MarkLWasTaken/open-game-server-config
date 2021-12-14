@@ -4,7 +4,6 @@ lgd_antibodies
 Arsenal(26)GunFighter
 ATA_Jeep
 ATA_Jeep_x2
-Barbed Wire Crafting
 BCGRareWeapons
 BCGTools
 Betterhandwash 41.60+
