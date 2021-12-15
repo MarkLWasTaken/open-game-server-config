@@ -16,15 +16,20 @@ CoolBag
 CraftHelper41
 cremation
 DangerMoodles
+Diederiks Tile Palooza
+DylansTiles
 DynamicTraits
 EasyConfigChucked
 EasyEngineRebuild
 EasyLightbarRepair
 eris_food_expiry
 FireBook
+firearmmod
 FH
+FORTREDSTONE
 Freeman's_Crowbar
 fuelsideindicator
+Grapeseed
 HBVMW
 HealthBars
 HECUGrunt
@@ -38,24 +43,34 @@ LitSortOGSN_gold
 LitSortOGSN_rice
 LitSortOGSN
 LitSortOGSN_readOnePage
+haloM12warthog
 manageContainers
 MoarCanOpeners
 modoptions
+MVF
 OutTheWindow
 PantryPacking
+PlayableArcadeMachines41
 ProfessionFrameworkB41Patch
 RainWash
 Realistic Canning
+POETVehicleRecycling
 POETRecycleEverything2
 POETRecycleEverything1
 ReduceLagofCraftingMenu
+Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed
+SecretBaseRoad
 sizelabels41
 SkillRecoveryJournal
 sleeponit
+SmarterMechanics
+POETStockVanilla
 SwapIt
 Trash and Corpses
 TrueActionsDancing
 tsarslib
+POETVehicleMechanics
+POETPartsIcons
 MattSimpleAddonsFriuts
 ZedHealthNew
 TMC_ZuperCart
