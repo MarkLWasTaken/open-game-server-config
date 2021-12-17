@@ -12,6 +12,8 @@ Betterhandwash 41.60+
 betterLockpicking
 BetterSortCC
 BookHelper
+Mod Template
+1537876121
 Brita
 Brita_2
 CoolBag
@@ -43,6 +45,7 @@ HECUGrunt
 HowStrongIsThatWall
 isoContainers
 ItemTweakerAPI (There are 2 mod folders using the same ID)
+1557287920
 KillCount
 LitSortOGSN_chocolate
 LitSortOGSN_diamond
@@ -76,6 +79,7 @@ TowingCar
 Trash and Corpses
 TrueActionsDancing
 tsarslib
+TurksLastingJarredFoodstuffs
 POETVehicleMechanics
 POETPartsIcons
 MattSimpleAddonsFriuts
