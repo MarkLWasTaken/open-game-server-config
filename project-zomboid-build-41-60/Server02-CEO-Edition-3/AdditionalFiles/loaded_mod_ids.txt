@@ -4,18 +4,12 @@ ammocraft
 lgd_antibodies
 Arsenal(26)GunFighter
 autotsartrailers
-
-[New!]
 ATA_Bus
-
 ATA_Jeep
 ATA_Jeep_x2
-
-[New!]
 MRBackpack Brita's Armor Pack
 MRBackpack OverhaulS
 MRBackpack Overhaul
-
 BCGRareWeapons
 BCGTools
 Betterhandwash 41.60+
@@ -31,19 +25,13 @@ CrashedCarsMod
 cremation
 DangerMoodles
 Diederiks Tile Palooza
-
-[New!]
 Duck_SharkBrita_LE
-
 DylansTiles
 DynamicTraits
 EasyConfigChucked
 EasyEngineRebuild
 EasyLightbarRepair
-
-[New!]
 EasySpareMagazineReload
-
 eris_food_expiry
 firearmmod
 FH
@@ -59,10 +47,7 @@ HBVMW
 HealthBars
 HECUGrunt
 HowStrongIsThatWall
-
-[New!]
 improvedbuildmenu41
-
 isoContainers
 ItemTweakerAPI (There are 2 mod folders using the same ID)
 1557287920
@@ -77,59 +62,35 @@ manageContainers
 MoarCanOpeners
 modoptions
 MVF
-
-[New!]
 MoreDescriptionForTraits
-
 OutTheWindow
 PantryPacking
 PlayableArcadeMachines41
-
-[New!]
 PositionXY
-
 ProfessionFrameworkB41Patch
-
-[New!]
 2527626083
-
 RainWash
-
-[New!]
 RavenCreek
-
 Realistic Canning
 POETVehicleRecycling
 POETRecycleEverything2
 POETRecycleEverything1
 ReduceLagofCraftingMenu
 Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed
-
-[New!]
 Repair Any Clothes
-
 SecretBaseRoad
-
-[New!]
 SLEO
 SLEOBlack
-
 sizelabels41
 SkillRecoveryJournal
 sleeponit
 SmarterMechanics
 POETStockVanilla
 SwapIt
-
-[New!]
 Swatpack
-
 TowingCar
 Trash and Corpses
-
-[New!]
 TMC_TrueActions
-
 TrueActionsDancing
 tsarslib
 TurksLastingJarredFoodstuffs
@@ -137,4 +98,26 @@ POETVehicleMechanics
 POETPartsIcons
 MattSimpleAddonsFriuts
 TMC_ZuperCart
+
+[New!]
+2398274461	/	SaveOurStation_Core
+2398274461	/	SaveOurStation_KnoxCountry
+2292487242	/	HTowTruck
+2252982049	/	lakeivytownship
+2068968606	/	VSTOWN
+1926271814	/	HQ
+1896970089	/	GasStationMatrioshka
+2464581798	/	waterPipes
+2422681177	/	90niva
+2197797275	/	vehiclescenes
+2033451936	/	LetMeThink
+2184990011	/	fastkeys41
+2687798127	/	WaterDispenser
+2578727114	/	Water Purification Tablets
+2684285534	/	SpnCloth
+2683041078	/	AwesomeTime
+2577903374	/	AutoDrop
+2588721141	/	RPQuickSortB41
+2629074154	/	stack_all_41
+926315905	/	svgMCerdato
 
