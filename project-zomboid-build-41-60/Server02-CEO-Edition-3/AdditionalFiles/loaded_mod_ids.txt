@@ -1,4 +1,17 @@
 
+DylansTiles
+Diederiks Tile Palooza
+2398274461	/	SaveOurStation_Core	/	[Disabled]
+RavenCreek
+FORTREDSTONE
+SecretBaseRoad
+2398274461	/	SaveOurStation_KnoxCountry
+Grapeseed	/	[Remove the dupe Mod ID in the next save instance]
+2252982049	/	lakeivytownship
+1896970089	/	GasStationMatrioshka
+1926271814	/	HQ
+2068968606	/	VSTOWN
+2687798127	/	WaterDispenser
 67commando
 ammocraft
 lgd_antibodies
@@ -7,7 +20,7 @@ autotsartrailers
 ATA_Bus
 ATA_Jeep
 ATA_Jeep_x2
-MRBackpack Brita's Armor Pack
+MRBackpack Brita's Armor Pack	/	[Disabled]
 MRBackpack OverhaulS
 MRBackpack Overhaul
 BCGRareWeapons
@@ -19,14 +32,12 @@ BookHelper
 Mod Template
 1537876121
 Brita
-Brita_2
+Brita_2	/	[Disabled]
 CraftHelper41
 CrashedCarsMod
 cremation
-DangerMoodles
-Diederiks Tile Palooza
-Duck_SharkBrita_LE
-DylansTiles
+DangerMoodles	/	[Disabled]
+Duck_SharkBrita_LE	/	[Disabled]
 DynamicTraits
 EasyConfigChucked
 EasyEngineRebuild
@@ -35,21 +46,20 @@ EasySpareMagazineReload
 eris_food_expiry
 firearmmod
 FH
-FORTREDSTONE
 Freeman's_Crowbar
-FRUsedCarsBETA
-FRUsedCarsFT
-FRUsedCarsNLF
-FRUsedCarsNRN
+1896907770	/	FRUsedCarsBETA	/	[Disabled]
+1896907770	/	FRUsedCarsFT	/	[Disabled]
+1896907770	/	FRUsedCarsNLF	/	[Disabled]
+1896907770	/	FRUsedCarsNRN	/	[Disabled]
 fuelsideindicator
-Grapeseed
 HBVMW
 HealthBars
 HECUGrunt
 HowStrongIsThatWall
 improvedbuildmenu41
 isoContainers
-ItemTweakerAPI (There are 2 mod folders using the same ID)
+2510747487	/	ItemTweakerAPI
+566115016	/	ItemTweakerAPI
 1557287920
 KillCount
 LitSortOGSN_chocolate
@@ -70,7 +80,6 @@ PositionXY
 ProfessionFrameworkB41Patch
 2527626083
 RainWash
-RavenCreek
 Realistic Canning
 POETVehicleRecycling
 POETRecycleEverything2
@@ -78,7 +87,6 @@ POETRecycleEverything1
 ReduceLagofCraftingMenu
 Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed
 Repair Any Clothes
-SecretBaseRoad
 SLEO
 SLEOBlack
 sizelabels41
@@ -98,19 +106,13 @@ POETVehicleMechanics
 POETPartsIcons
 MattSimpleAddonsFriuts
 TMC_ZuperCart
-2398274461	/	SaveOurStation_Core
-2398274461	/	SaveOurStation_KnoxCountry
-2292487242	/	HTowTruck
-2252982049	/	lakeivytownship
-2068968606	/	VSTOWN
-1926271814	/	HQ
-1896970089	/	GasStationMatrioshka
+2398274461	/	SaveOurStation_Core	/	[Disabled]
+2292487242	/	HTowTruck	/	[Was not enabled during the whole save instance, remember to enable it in the next one.]
 2464581798	/	waterPipes
 2422681177	/	90niva
 2197797275	/	vehiclescenes
-2033451936	/	LetMeThink
+2033451936	/	LetMeThink	/	[Disabled]
 2184990011	/	fastkeys41
-2687798127	/	WaterDispenser
 2578727114	/	Water Purification Tablets
 2684285534	/	SpnCloth
 2683041078	/	AwesomeTime
@@ -118,7 +120,11 @@ TMC_ZuperCart
 2588721141	/	RPQuickSortB41
 2629074154	/	stack_all_41
 926315905	/	svgMCerdato
+2492565135	/	Max
 
 [New!]
-2492565135	/	Max
+1510950729	/	FRUsedCars
+1510950729	/	FRUsedCarsFT
+1510950729	/	FRUsedCarsNLF
+1510950729	/	FRUsedCarsNRN
 
