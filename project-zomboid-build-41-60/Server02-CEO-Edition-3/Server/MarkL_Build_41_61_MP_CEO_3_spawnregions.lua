@@ -7,7 +7,7 @@ function SpawnRegions()
 		== !!
 		== !! Custom maps are listed below.
 		== !!
-		{ name = "RavenCreek, KY", file = "media/maps/RavenCreek, KY/spawnpoints.lua" }
+		{ name = "RavenCreek, KY", file = "media/maps/RavenCreek, KY/spawnpoints.lua" },
 		== !! { name = "smallville", file = "media/maps/SecretBaseRoad/spawnpoints.lua" },
 		{ name = "Grapeseed,KY", file = "media/maps/Grapeseed/spawnpoints.lua" },
 	}
