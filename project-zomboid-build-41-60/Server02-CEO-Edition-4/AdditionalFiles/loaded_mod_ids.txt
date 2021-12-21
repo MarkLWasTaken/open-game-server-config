@@ -6,7 +6,7 @@ RavenCreek
 FORTREDSTONE
 SecretBaseRoad
 2398274461	/	SaveOurStation_KnoxCountry
-Grapeseed	/	[Remove the dupe Mod ID in the next save instance]
+2463499011	/	Grapeseed
 2252982049	/	lakeivytownship
 1896970089	/	GasStationMatrioshka
 1926271814	/	HQ
@@ -107,7 +107,7 @@ POETPartsIcons
 MattSimpleAddonsFriuts
 TMC_ZuperCart
 2398274461	/	SaveOurStation_Core	/	[Disabled]
-2292487242	/	HTowTruck	/	[Was not enabled during the whole save instance, remember to enable it in the next one.]
+2292487242	/	HTowTruck
 2464581798	/	waterPipes
 2422681177	/	90niva
 2197797275	/	vehiclescenes
