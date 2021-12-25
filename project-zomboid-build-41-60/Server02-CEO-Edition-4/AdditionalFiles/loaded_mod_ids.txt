@@ -130,6 +130,6 @@ TMC_ZuperCart
 1510950729	/	FRUsedCarsNRN
 
 [New!]
-2572385719  / Remastered Kitsune's Crossbow Mod / Remastered Kitsune's Crossbow Mod
-2560478285  / SDI / Sound Direction Indicator
+2572385719  / Remastered Kitsune's Crossbow Mod	/ Remastered Kitsune's Crossbow Mod
+2560478285  / SoundDirectionIndicator / Sound Direction Indicator
 
