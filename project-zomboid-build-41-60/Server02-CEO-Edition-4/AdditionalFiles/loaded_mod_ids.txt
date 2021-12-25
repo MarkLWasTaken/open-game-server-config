@@ -1,4 +1,7 @@
 
+New Format:
+Steam Workshop ID / Mod ID  / SteamWorkshop Title
+
 DylansTiles
 Diederiks Tile Palooza
 2398274461	/	SaveOurStation_Core	/	[Disabled]
@@ -85,7 +88,7 @@ POETVehicleRecycling
 POETRecycleEverything2
 POETRecycleEverything1
 ReduceLagofCraftingMenu
-Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed
+2681575609	/	Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed	/	Remastered Kitsune's Crossbow Mod MP 41.60 FIX	[Disabled]
 Repair Any Clothes
 SLEO
 SLEOBlack
@@ -121,10 +124,12 @@ TMC_ZuperCart
 2629074154	/	stack_all_41
 926315905	/	svgMCerdato
 2492565135	/	Max
-
-[New!]
 1510950729	/	FRUsedCars
 1510950729	/	FRUsedCarsFT
 1510950729	/	FRUsedCarsNLF
 1510950729	/	FRUsedCarsNRN
+
+[New!]
+2572385719  / Remastered Kitsune's Crossbow Mod / Remastered Kitsune's Crossbow Mod
+2560478285  / SDI / Sound Direction Indicator
 
