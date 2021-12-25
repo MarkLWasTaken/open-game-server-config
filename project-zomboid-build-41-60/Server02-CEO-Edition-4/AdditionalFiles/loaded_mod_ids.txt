@@ -76,13 +76,13 @@ MoarCanOpeners
 modoptions
 MVF
 MoreDescriptionForTraits
-OutTheWindow
+2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
 PantryPacking
 PlayableArcadeMachines41
 PositionXY
 ProfessionFrameworkB41Patch
 2527626083
-RainWash
+2657661246	/	RainWash	/	Rain Wash
 Realistic Canning
 POETVehicleRecycling
 POETRecycleEverything2
