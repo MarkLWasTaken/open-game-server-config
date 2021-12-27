@@ -44,8 +44,8 @@ Added 5 new mods.
 New format: Steam Workshop ID / Mod ID  / SteamWorkshop Title
 
 Added 2 new mods.
-2572385719  / Remastered Kitsune's Crossbow Mod / Remastered Kitsune's Crossbow Mod
-2560478285  / SDI / Sound Direction Indicator
+2572385719	/	Remastered Kitsune's Crossbow Mod	/	Remastered Kitsune's Crossbow Mod
+2560478285	/	SDI	/	Sound Direction Indicator
 
 Disabled 1 mod.
 2681575609	/	Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed	/	Remastered Kitsune's Crossbow Mod MP 41.60 FIX

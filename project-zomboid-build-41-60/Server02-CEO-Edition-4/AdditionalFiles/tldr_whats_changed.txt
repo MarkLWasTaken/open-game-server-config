@@ -5,8 +5,8 @@
 2566953935	/	86oshkoshP19A	/	'86 Oshkosh P19A + Military Trailers
 2544353492	/	P4HasBeenRead	/	Has Been Read
 2143039189	/	Threads	/	Thead and Twine
-2572385719  / Remastered Kitsune's Crossbow Mod / Remastered Kitsune's Crossbow Mod
-2560478285  / SDI / Sound Direction Indicator
+2572385719	/	Remastered Kitsune's Crossbow Mod	/	Remastered Kitsune's Crossbow Mod
+2560478285	/	SDI	/	Sound Direction Indicator
 2689863681	/	VDK	/	Vac's Drinks
 2688538916	/	FuelAPI	/	FuelAPI
 
