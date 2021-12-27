@@ -28,11 +28,11 @@ HTowTruck
 "MarkL_Build_41_61_MP_CEO_4"
 
 Added 5 new mods.
-2613596656	/	CoolBag
-2618213077	/	82oshkoshM911
-2566953935	/	86oshkoshP19A
-2544353492	/	P4HasBeenRead
-2143039189	/	Threads
+2613596656	/	CoolBag	/	CoolBag
+2618213077	/	82oshkoshM911	/	'82 Oshkosh M911 + Military Semi-Trailers
+2566953935	/	86oshkoshP19A	/	'86 Oshkosh P19A + Military Trailers
+2544353492	/	P4HasBeenRead	/	Has Been Read
+2143039189	/	Threads	/	Thead and Twine
 
 ================================================================================
 ================================================================================
