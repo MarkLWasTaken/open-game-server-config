@@ -1,0 +1,98 @@
+
+================================================================================
+================================================================================
+
+1:41 AM, 22 December 2021 (GMT +8)
+"MarkL_Build_41_61_MP_CEO_4"
+
+New save instace. Retaining the previously used mods from "MarkL_Build_41_61_MP_CEO_3".
+
+================================================================================
+================================================================================
+
+2:25 AM, 22 December 2021
+2:31 AM, 22 December 2021 (GMT +8)
+"MarkL_Build_41_61_MP_CEO_4"
+
+Removed duplicate Mod ID:
+Grapeseed
+
+Added 1 mod (Forgot to copy it):
+HTowTruck
+
+================================================================================
+================================================================================
+
+1:34-PM, 23 December 2021
+1:41-PM, 23 December 2021
+"MarkL_Build_41_61_MP_CEO_4"
+
+Added 5 new mods.
+2613596656	/	CoolBag
+2618213077	/	82oshkoshM911
+2566953935	/	86oshkoshP19A
+2544353492	/	P4HasBeenRead
+2143039189	/	Threads
+
+================================================================================
+================================================================================
+
+12:39 PM, 25 December 2021
+12:47 PM, 25 December 2021
+"MarkL_Build_41_61_MP_CEO_4"
+
+New format: Steam Workshop ID / Mod ID  / SteamWorkshop Title
+
+Added 2 new mods.
+2572385719  / Remastered Kitsune's Crossbow Mod / Remastered Kitsune's Crossbow Mod
+2560478285  / SDI / Sound Direction Indicator
+
+Disabled 1 mod.
+2681575609	/	Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed	/	Remastered Kitsune's Crossbow Mod MP 41.60 FIX
+
+================================================================================
+================================================================================
+
+1:35 PM, 25 December 2021
+1:37 PM, 25 December 2021
+"MarkL_Build_41_61_MP_CEO_4"
+
+Fixed using mod folder instead of mod ID at "Mods="
+SDI > SoundDirectionIndicator
+
+================================================================================
+================================================================================
+
+2:35 PM, 25 December 2021
+2:5Something PM, 25 December 2021
+"MarkL_Build_41_61_MP_CEO_4"
+
+Update 4 mods.
+
+2685168362	/	MoreDescriptionForTraits	/	More Description for Traits
+2464581798	/	waterPipes	/	Irrigation pipes for farming and water supply. Fixed for B41.
+2687798127	/	WaterDispenser	/	Water Dispenser
+2683041078	/	AwesomeTime	/	Soul Filcher's Awesome Time
+
+================================================================================
+================================================================================
+
+3:05 PM, 25 December 2021
+3:08 PM, 25 December 2021
+"MarkL_Build_41_61_MP_CEO_4"
+
+Update 1 mod.
+
+2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
+
+================================================================================
+================================================================================
+
+
+
+
+
+
+
+
+
