@@ -109,7 +109,7 @@ Added 3 mods.
 "MarkL_Build_41_61_MP_CEO_4"
 
 Temporarily disabled 1 mod.
-myclothinguimod
+2695471997	/	myclothinguimod	/	Clothing items grid view
 
 ================================================================================
 ================================================================================
