@@ -1,0 +1,5 @@
+name=VehicleScenes
+id=vehiclescenes
+description=
+poster=poster.png
+require=FRUsedCarsBETA
