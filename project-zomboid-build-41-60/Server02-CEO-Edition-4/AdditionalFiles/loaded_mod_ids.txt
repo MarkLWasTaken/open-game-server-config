@@ -15,8 +15,6 @@ Steam Workshop ID / Mod ID  / SteamWorkshop Title
 1926271814	/	HQ	/	Park Rangers HQ
 2068968606	/	VSTOWN	/	Valley Station Town
 2687798127	/	WaterDispenser	/	Water Dispenser
-
-[Re-arrangement of mods]
 2292487242	/	TowingCar	/	Better Towing (41.56+)
 2292487242	/	HTowTruck	/	Harry's Functional Tow Truck - Chevalier Rhino
 2392709985	/	tsarslib	/	Tsar's Common Library [MP updated]
@@ -132,8 +130,6 @@ TMC_ZuperCart
 2629074154	/	stack_all_41
 926315905	/	svgMCerdato
 2492565135	/	Max	/	Madax's Melee Weapon Pack (Build 41.51)
-
-[New!]
 2613596656	/	CoolBag	/	CoolBag
 2566953935	/	86oshkoshP19A	/	'86 Oshkosh P19A + Military Trailers
 2544353492	/	P4HasBeenRead	/	Has Been Read
@@ -143,4 +139,7 @@ TMC_ZuperCart
 2695471997	/	myclothinguimod	/	Clothing items grid view
 2689863681	/	VDK	/	Vac's Drinks
 2688538916	/	FuelAPI	/	FuelAPI
+
+[New!]
+2611652130	/	DRK_1	/	USMC Armory
 

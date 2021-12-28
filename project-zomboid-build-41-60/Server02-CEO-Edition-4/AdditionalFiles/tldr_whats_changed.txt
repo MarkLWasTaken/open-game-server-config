@@ -1,5 +1,30 @@
 
-[New]
+================================================================================
+================================================================================
+WIP
+
+[❌ Disable] 2460154811	/	Brita_2
+[❌ Disable] 2082399424	/	MRBackpack Brita's Armor Pack
+[❌ Disable] 2652577873	/	Duck_SharkBrita_LE
+[❌ Disable] 2033451936	/	LetMeThink
+[🛠 Update] 2256623447	/	firearmmod (Last version: 12 Dec @ 11:11am)
+[🛠 Update] 2256623447	/	firearmssilencer (Last version: 12 Dec @ 11:11am)
+[❌ Disable] 2676526057	/	DangerMoodles
+[❌ Disable] 2398274461	/	SaveOurStation_Core
+[❌ Disable] 1896907770	/	FRUsedCarsBETA
+[❌ Disable] 1896907770	/	FRUsedCarsFT
+[❌ Disable] 1896907770	/	FRUsedCarsNLF
+[❌ Disable] 1896907770	/	FRUsedCarsNRN
+[✅ Enable] 1510950729	/	FRUsedCars
+[✅ Enable] 1510950729	/	FRUsedCarsFT
+[✅ Enable] 1510950729	/	FRUsedCarsNLF
+[✅ Enable] 1510950729	/	FRUsedCarsNRN
+
+WIP
+================================================================================
+================================================================================
+
+[✅ New, Enabled]
 2613596656	/	CoolBag	/	CoolBag
 2618213077	/	82oshkoshM911	/	'82 Oshkosh M911 + Military Semi-Trailers
 2566953935	/	86oshkoshP19A	/	'86 Oshkosh P19A + Military Trailers
@@ -11,13 +36,25 @@
 2688538916	/	FuelAPI	/	FuelAPI
 2695471997	/	myclothinguimod	/	Clothing items grid view
 
-[Disabled/Removed]
+[❌ Disabled / Removed]
 2681575609	/	Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed	/	Remastered Kitsune's Crossbow Mod MP 41.60 FIX
 
-[Updated]
+[🛠 Updated]
 2685168362	/	MoreDescriptionForTraits	/	More Description for Traits
 2464581798	/	waterPipes	/	Irrigation pipes for farming and water supply. Fixed for B41.
 2687798127	/	WaterDispenser	/	Water Dispenser
 2683041078	/	AwesomeTime	/	Soul Filcher's Awesome Time
 2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
+
+================================================================================
+================================================================================
+
+7:49 PM, 28 December 2021
+7:53 PM, 28 December 2021
+
+[✅ New, Enabled]
+2611652130	/	DRK_1	/	USMC Armory
+
+================================================================================
+================================================================================
 
