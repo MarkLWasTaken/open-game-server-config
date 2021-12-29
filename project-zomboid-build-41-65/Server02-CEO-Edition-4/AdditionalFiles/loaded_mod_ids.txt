@@ -50,24 +50,24 @@ Steam Workshop ID / Mod ID  / SteamWorkshop Title
 [Updated]
 2432621382	/	BCGRareWeapons	/	Bushcraft Gear - Rare Weapons
 
-BCGTools
+2423906082	/	BCGTools	/	Bushcraft Gear - Tools
 
 [Disabled]
 2594865484	/	Betterhandwash 41.60+	/	Better Hand Wash (41.60+)
 
-betterLockpicking
+2368058459	/	betterLockpicking	/	Better lockpicking (Updated for 41.60 MP)
 
 [Updated]
 2313387159	/	BetterSortCC	/	Better Sorting
 
-BookHelper
+2139339494	/	BookHelper	/	Book Helper (41.54)
 Mod Template
-1537876121
-Brita
-Brita_2	/	[Disabled]
-CraftHelper41
-cremation
-DangerMoodles	/	[Disabled]
+1537876121	/	[WIP]	/	Bottling of Meat MOD for build 41
+2200148440	/	Brita	/	Brita's Weapon Pack
+2460154811	/	Brita_2	/	Brita's Weapon Pack	/	[Disabled]
+2186592938	/	CraftHelper41	/	Craft Helper (41.x)
+1907165735	/	cremation	/	Cremation (41 IWBUMS)
+2676526057	/	DangerMoodles	/	Danger Moodles	/	[Disabled]
 Duck_SharkBrita_LE	/	[Disabled]
 
 [Updated]
