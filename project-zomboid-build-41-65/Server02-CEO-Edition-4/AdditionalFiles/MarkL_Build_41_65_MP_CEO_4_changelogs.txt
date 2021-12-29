@@ -258,11 +258,25 @@ Updated 15 mods.
 Added 1 mod as part of the mod update.
 2684285534	/	SpnClothVanilla	/	Spongie's Clothing
 
+================================================================================
+================================================================================
 
+1:02 PM, 29 December 2021
+1:02 PM, 29 December 2021
 
+"MarkL_Build_41_61_MP_CEO_4"
 
+[Known issues]
 
+Failed to initialize:
+SoulFilchersAwesomeTime_2683041078/media/lua/server/Items/SFExplore_LootDistributions.lua line # 9
+SoulFilchersAwesomeTime_2683041078/media/lua/server/Items/SFFarm_LootDistributions.lua line # 125
+Zombie Cure_926315905/media/lua/server/Items/SVGZombieLootDistributions.lua line # 66
+Towing car_2241990680/media/lua/server/Items/TowCarItem_Distributions.lua line # 8
+Water Purification Tablets_2578727114/media/lua/server/Items/WaterPurificationTablets_distribution.lua line # 7
 
+================================================================================
+================================================================================
 
 
 
