@@ -41,9 +41,11 @@ Steam Workshop ID / Mod ID  / SteamWorkshop Title
 [Updated]
 2297098490	/	Arsenal(26)GunFighter	/	Arsenal(26) GunFighter Mod
 
-MRBackpack Brita's Armor Pack	/	[Disabled]
-MRBackpack OverhaulS
-MRBackpack Overhaul
+2082399424	/	MRBackpack Brita's Armor Pack	/	Backpack Overhaul	/	[Disabled]
+
+[Updated]
+2082399424	/	MRBackpack OverhaulS	/	Backpack Overhaul
+2082399424	/	MRBackpack Overhaul	/	Backpack Overhaul
 
 [Updated]
 2432621382	/	BCGRareWeapons	/	Bushcraft Gear - Rare Weapons
