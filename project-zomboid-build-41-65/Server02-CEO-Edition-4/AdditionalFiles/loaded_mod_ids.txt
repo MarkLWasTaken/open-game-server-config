@@ -12,7 +12,10 @@ Steam Workshop ID / Mod ID  / SteamWorkshop Title
 2463499011	/	Grapeseed	/	Grapeseed
 2252982049	/	lakeivytownship	/	Lake Ivy Township
 1896970089	/	GasStationMatrioshka	/	Gas Station
+
+[Updated]
 1926271814	/	HQ	/	Park Rangers HQ
+
 2068968606	/	VSTOWN	/	Valley Station Town
 2687798127	/	WaterDispenser	/	Water Dispenser
 2292487242	/	TowingCar	/	Better Towing (41.56+)
@@ -34,15 +37,27 @@ Steam Workshop ID / Mod ID  / SteamWorkshop Title
 2478247379	/	67commando	/	'67 Cadillac Gage Commando
 2245813444	/	ammocraft	/	Ammocraft B41
 2392676812	/	Antibodies	/	lgd_antibodies
-Arsenal(26)GunFighter
+
+[Updated]
+2297098490	/	Arsenal(26)GunFighter	/	Arsenal(26) GunFighter Mod
+
 MRBackpack Brita's Armor Pack	/	[Disabled]
 MRBackpack OverhaulS
 MRBackpack Overhaul
-BCGRareWeapons
+
+[Updated]
+2432621382	/	BCGRareWeapons	/	Bushcraft Gear - Rare Weapons
+
 BCGTools
-Betterhandwash 41.60+
+
+[Disabled]
+2594865484	/	Betterhandwash 41.60+	/	Better Hand Wash (41.60+)
+
 betterLockpicking
-BetterSortCC
+
+[Updated]
+2313387159	/	BetterSortCC	/	Better Sorting
+
 BookHelper
 Mod Template
 1537876121
@@ -52,14 +67,20 @@ CraftHelper41
 cremation
 DangerMoodles	/	[Disabled]
 Duck_SharkBrita_LE	/	[Disabled]
-DynamicTraits
-EasyConfigChucked
+
+[Updated]
+2459400130	/	DynamicTraits	/	Dynamic Traits
+2529746725	/	EasyConfigChucked	/	Easy Config Chucked
+
 EasyEngineRebuild
 EasyLightbarRepair
 EasySpareMagazineReload
 eris_food_expiry
 firearmmod
-FH
+
+[Updated]
+2447729538	/	FH	/	Fluffy Hair
+
 Freeman's_Crowbar
 1896907770	/	FRUsedCarsBETA	/	[Disabled]
 1896907770	/	FRUsedCarsFT	/	[Disabled]
@@ -74,7 +95,10 @@ improvedbuildmenu41
 2510747487	/	ItemTweakerAPI
 566115016	/	ItemTweakerAPI
 1557287920
-KillCount
+
+[Updated]
+2553809727	/	KillCount	/	KillCount
+
 LitSortOGSN_chocolate
 LitSortOGSN_diamond
 LitSortOGSN_gold
@@ -82,10 +106,16 @@ LitSortOGSN_rice
 LitSortOGSN
 LitSortOGSN_readOnePage
 manageContainers
-MoarCanOpeners
+
+[Updated]
+2651600962	/	MoarCanOpeners	/	Moar Can Openers
+
 modoptions
 MVF
-MoreDescriptionForTraits
+
+[Updated]
+2685168362	/	MoreDescriptionForTraits	/	More Description for Traits
+
 2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
 PantryPacking
 PlayableArcadeMachines41
@@ -103,18 +133,27 @@ Repair Any Clothes
 SLEO
 SLEOBlack
 sizelabels41
-SkillRecoveryJournal
+
+[Updated]
+2503622437	/	SkillRecoveryJournal	/	Skill Recovery Journal
+
 sleeponit
 SmarterMechanics
 POETStockVanilla
-SwapIt
+
+[Updated]
+2366717227	/	SwapIt	/	Swap It
+
 Swatpack
 Trash and Corpses
 TrueActionsDancing
 TurksLastingJarredFoodstuffs
 POETVehicleMechanics
 POETPartsIcons
-MattSimpleAddonsFriuts
+
+[Updated]
+2618566294	/	MattSimpleAddonsFriuts	/	Wild Fruits
+
 TMC_ZuperCart
 2398274461	/	SaveOurStation_Core	/	[Disabled]
 2464581798	/	waterPipes
@@ -123,7 +162,10 @@ TMC_ZuperCart
 2033451936	/	LetMeThink	/	[Disabled]
 2184990011	/	fastkeys41
 2578727114	/	Water Purification Tablets
-2684285534	/	SpnCloth
+
+[Updated]
+2684285534	/	SpnCloth	/	Spongie's Clothing
+
 2683041078	/	AwesomeTime
 2577903374	/	AutoDrop
 2588721141	/	RPQuickSortB41
@@ -132,14 +174,19 @@ TMC_ZuperCart
 2492565135	/	Max	/	Madax's Melee Weapon Pack (Build 41.51)
 2613596656	/	CoolBag	/	CoolBag
 2566953935	/	86oshkoshP19A	/	'86 Oshkosh P19A + Military Trailers
+
+[Updated]
 2544353492	/	P4HasBeenRead	/	Has Been Read
+
 2143039189	/	Threads	/	Thead and Twine
 2572385719  / Remastered Kitsune's Crossbow Mod	/ Remastered Kitsune's Crossbow Mod
 2560478285  / SoundDirectionIndicator / Sound Direction Indicator
 2695471997	/	myclothinguimod	/	Clothing items grid view
 2689863681	/	VDK	/	Vac's Drinks
 2688538916	/	FuelAPI	/	FuelAPI
-
-[New!]
 2611652130	/	DRK_1	/	USMC Armory
+
+[New! from update]
+2594865484	/	Betterhandwash	/	Better Hand Wash (41.60+)
+2684285534	/	SpnClothVanilla	/	Spongie's Clothing
 
