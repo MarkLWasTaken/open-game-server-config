@@ -68,17 +68,17 @@ Mod Template
 2186592938	/	CraftHelper41	/	Craft Helper (41.x)
 1907165735	/	cremation	/	Cremation (41 IWBUMS)
 2676526057	/	DangerMoodles	/	Danger Moodles	/	[Disabled]
-Duck_SharkBrita_LE	/	[Disabled]
+2652577873	/	Duck_SharkBrita_LE	/	Duck's Shark and Peach's + Brita's Law Enforcement Compatibility patch	/	[Disabled]
 
 [Updated]
 2459400130	/	DynamicTraits	/	Dynamic Traits
 2529746725	/	EasyConfigChucked	/	Easy Config Chucked
 
-EasyEngineRebuild
-EasyLightbarRepair
-EasySpareMagazineReload
-eris_food_expiry
-firearmmod
+2577243435	/	EasyEngineRebuild	/	Easy Engine Rebuild
+2582648054	/	EasyLightbarRepair	/	Easy Lightbar Repair
+2590662055	/	EasySpareMagazineReload	/	Easy Spare Magazine Reload
+1651019937	/	eris_food_expiry	/	eris_food_expiry
+2256623447	/	firearmmod	/	Firearms B41
 
 [Updated]
 2447729538	/	FH	/	Fluffy Hair
@@ -88,26 +88,26 @@ Freeman's_Crowbar
 1896907770	/	FRUsedCarsFT	/	[Disabled]
 1896907770	/	FRUsedCarsNLF	/	[Disabled]
 1896907770	/	FRUsedCarsNRN	/	[Disabled]
-fuelsideindicator
+2616986064	/	fuelsideindicator	/	Fuel Side Indicator
 HBVMW
 HealthBars
 HECUGrunt
-HowStrongIsThatWall
-improvedbuildmenu41
-2510747487	/	ItemTweakerAPI
-566115016	/	ItemTweakerAPI
-1557287920
+2589234033	/	HowStrongIsThatWall	/	How Strong Is That Wall
+1969456967	/	improvedbuildmenu41	/	Improved Build Menu [Build 41]
+2510747487	/	ItemTweakerAPI	/	Item Tweaker API B41
+566115016	/	ItemTweakerAPI	/	Item Tweaker API
+1557287920	/	[WIP]	/	Jar Lid MOD for build 41
 
 [Updated]
 2553809727	/	KillCount	/	KillCount
 
-LitSortOGSN_chocolate
-LitSortOGSN_diamond
-LitSortOGSN_gold
-LitSortOGSN_rice
-LitSortOGSN
-LitSortOGSN_readOnePage
-manageContainers
+2071347174	/	LitSortOGSN_chocolate	/	An Exhilaratingly Organized Literature Mod
+2071347174	/	LitSortOGSN_diamond	/	An Exhilaratingly Organized Literature Mod
+2071347174	/	LitSortOGSN_gold	/	An Exhilaratingly Organized Literature Mod
+2071347174	/	LitSortOGSN_rice	/	An Exhilaratingly Organized Literature Mod
+2071347174	/	LitSortOGSN	/	An Exhilaratingly Organized Literature Mod
+2071347174	/	LitSortOGSN_readOnePage	/	An Exhilaratingly Organized Literature Mod
+2650547917	/	manageContainers	/	Manage Containers
 
 [Updated]
 2651600962	/	MoarCanOpeners	/	Moar Can Openers
@@ -119,8 +119,8 @@ MVF
 2685168362	/	MoreDescriptionForTraits	/	More Description for Traits
 
 2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
-PantryPacking
-PlayableArcadeMachines41
+2637692469	/	PantryPacking	/	Pantry Packing
+2445720450	/	PlayableArcadeMachines41	/	Playable Arcade Machines for 41
 PositionXY
 ProfessionFrameworkB41Patch
 2527626083
