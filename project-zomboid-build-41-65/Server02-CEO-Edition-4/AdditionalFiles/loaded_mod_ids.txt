@@ -18,8 +18,8 @@ Steam Workshop ID / Mod ID  / SteamWorkshop Title
 
 2068968606	/	VSTOWN	/	Valley Station Town
 2687798127	/	WaterDispenser	/	Water Dispenser
-2292487242	/	TowingCar	/	Better Towing (41.56+)
-2292487242	/	HTowTruck	/	Harry's Functional Tow Truck - Chevalier Rhino
+2292487242	/	TowingCar	/	Better Towing (41.56+)	/	[Disabled]
+2292487242	/	HTowTruck	/	Harry's Functional Tow Truck - Chevalier Rhino	/	[Disabled]
 2392709985	/	tsarslib	/	Tsar's Common Library [MP updated]
 2282429356	/	autotsartrailers	/	Autotsar Trailers [MP updated]
 2592358528	/	ATA_Bus	/	Autotsar Tuning Atelier - Bus [MP updated]

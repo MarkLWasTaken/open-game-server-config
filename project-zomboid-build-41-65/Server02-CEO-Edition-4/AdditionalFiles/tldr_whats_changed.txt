@@ -105,3 +105,36 @@ to
 ================================================================================
 ================================================================================
 
+
+
+
+
+dropdown12	 = "Attachment Break on Fire",
+dropdown91	 = "(AMMO)",
+dropdown92	 = "(PARTS)",
+dropdown93	 = "(ARMOR)",
+dropdown114	 = "CIV Trim (+) Increase",
+dropdown115	 = "LEO Trim (+) Increase",
+dropdown116	 = "MIL Trim (+) Increase",
+dropdown117	 = "SEC Trim (+) Increase",
+dropdown118	 = "HNT Trim (+) Increase",
+dropdown119	 = "SUR Trim (+) Increase",
+box120	 = "CIV Spawn Associated Ammo",
+box121	 = "LEO Spawn Associated Ammo",
+box122	 = "MIL Spawn Associated Ammo",
+box123	 = "SEC Spawn Associated Ammo",
+box124	 = "HNT Spawn Associated Ammo",
+box125	 = "SUR Spawn Associated Ammo",
+dropdown126	 = "REGIONAL MILITARY (Use MIL Trim to Re-Balance)",
+
+
+
+
+
+
+
+
+
+
+
+
