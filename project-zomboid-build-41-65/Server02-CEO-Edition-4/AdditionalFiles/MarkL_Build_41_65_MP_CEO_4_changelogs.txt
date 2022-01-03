@@ -353,7 +353,7 @@ Add 8 new mods.
 2680473910	/	TheWorkshop(new version)	/	The Workshop	/	[No Dependencies]
 2122265954	/	ScrapWeapons(new version)	/	Scrap Weapons!	/	[The Workshop]
 2629286881	/	MilPoncho	/	Military Ponchos	/	[No Dependencies]
-2701170568	/	Extra Map Symbols	/	Extra Map Symbols	/	[No Dependencies]
+2701170568	/	ExtraMapSymbols	/	Extra Map Symbols	/	[No Dependencies]
 2588598892	/	AutoMechanics	/	AutoMechanics	/	[No Dependencies]
 2469965159	/	MFL	/	Mechanical Flashlight. (B41.56+)	/	[No Dependencies]
 2479859182	/	Homemade_Bleach	/	Homemade Bleach (Build 41.54)	/	[No Dependencies]
@@ -366,10 +366,45 @@ Contains: 633 Files, 117 Folders
 ================================================================================
 ================================================================================
 
+2:0Something PM, 3 January 2021
+2:1Something PM, 3 January 2021
 
+"MarkL_Build_41_61_MP_CEO_4"
 
+Uploaded the "Update 1" archive to the cloud.
 
+================================================================================
+================================================================================
 
+2:16 PM, 3 January 2021
+2:16 PM, 3 January 2021
+
+"MarkL_Build_41_61_MP_CEO_4"
+
+Fixed using the wrong Mod ID.
+
+Extra Map Symbols
+to
+ExtraMapSymbols
+
+================================================================================
+================================================================================
+
+2:22 PM, 3 January 2021
+2:29 PM, 3 January 2021
+
+"MarkL_Build_41_61_MP_CEO_4"
+
+Known issues:
+.../Zomboid/mods/Ponchos_2629286881/media/lua/server/Items/MPoncho_Distributions.lua	(line # 28)
+.../Zomboid/mods/SoulFilchersAwesomeTime_2683041078/media/lua/server/Items/SFExplore_LootDistributions.lua	(line # 9)
+.../Zomboid/mods/SoulFilchersAwesomeTime_2683041078/media/lua/server/Items/SFFarm_LootDistributions.lua	(line # 125)
+.../Zomboid/mods/Zombie Cure_926315905/media/lua/server/Items/SVGZombieLootDistributions.lua	(line # 66)
+.../Zomboid/mods/Water Purification Tablets_2578727114/media/lua/server/Items/WaterPurificationTablets_distribution.lua	(line # 7)
+.../Zomboid/mods/HomemadeBleach_41_54_2479859182/media/lua/server/items/HMB_Procedural.lua	(line # 122)
+
+================================================================================
+================================================================================
 
 
 
