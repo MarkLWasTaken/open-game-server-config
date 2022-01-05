@@ -406,10 +406,20 @@ Known issues:
 ================================================================================
 ================================================================================
 
+12:45 PM, 5 January 2021
+ PM, 5 January 2021
 
+"MarkL_Build_41_61_MP_CEO_4"
 
+Set server to save every 30 minutes, instead of auto-saving real time.
+SaveWorldEveryMinutes=0
+to
+SaveWorldEveryMinutes=30
 
-
+Set server to not save player's data when they take damage.
+PlayerSaveOnDamage=true
+to
+PlayerSaveOnDamage=false
 
 
 
