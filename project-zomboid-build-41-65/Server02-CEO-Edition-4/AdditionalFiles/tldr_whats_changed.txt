@@ -149,6 +149,20 @@ to
 ================================================================================
 ================================================================================
 
+2:Something PM, 9 January 2022
+12:59 AM, 9 January 2022
+
+Uploaded the "Update 2" archive to the cloud.
+
+Refer to the website address for more details.
+https://drive.google.com/drive/folders/18JKnxc9KT7c6sNocDHyoGN_P5oV_RfaQ?usp=sharing
+
+================================================================================
+================================================================================
+
+
+
+
 
 
 dropdown12	 = "Attachment Break on Fire",
@@ -168,6 +182,7 @@ box123	 = "SEC Spawn Associated Ammo",
 box124	 = "HNT Spawn Associated Ammo",
 box125	 = "SUR Spawn Associated Ammo",
 dropdown126	 = "REGIONAL MILITARY (Use MIL Trim to Re-Balance)",
+
 
 
 

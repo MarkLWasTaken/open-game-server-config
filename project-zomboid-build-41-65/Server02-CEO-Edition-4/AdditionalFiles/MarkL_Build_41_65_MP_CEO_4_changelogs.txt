@@ -344,7 +344,7 @@ Uploaded the full mod pack to the cloud.
 ================================================================================
 
 12:18 PM, 3 January 2022
-1:13 PM, 3 January 2021
+1:13 PM, 3 January 2022
 
 "MarkL_Build_41_61_MP_CEO_4"
 
@@ -366,18 +366,21 @@ Contains: 633 Files, 117 Folders
 ================================================================================
 ================================================================================
 
-2:0Something PM, 3 January 2021
-2:1Something PM, 3 January 2021
+2:0Something PM, 3 January 2022
+2:1Something PM, 3 January 2022
 
 "MarkL_Build_41_61_MP_CEO_4"
 
 Uploaded the "Update 1" archive to the cloud.
 
+Refer to the website address for more details.
+https://drive.google.com/drive/folders/1Zi4xL9mKKizcBMrV4JQeTc-1SjNHDLdY?usp=sharing
+
 ================================================================================
 ================================================================================
 
-2:16 PM, 3 January 2021
-2:16 PM, 3 January 2021
+2:16 PM, 3 January 2022
+2:16 PM, 3 January 2022
 
 "MarkL_Build_41_61_MP_CEO_4"
 
@@ -390,8 +393,8 @@ ExtraMapSymbols
 ================================================================================
 ================================================================================
 
-2:22 PM, 3 January 2021
-2:29 PM, 3 January 2021
+2:22 PM, 3 January 2022
+2:29 PM, 3 January 2022
 
 "MarkL_Build_41_61_MP_CEO_4"
 
@@ -406,8 +409,8 @@ Known issues:
 ================================================================================
 ================================================================================
 
-12:45 PM, 5 January 2021
- PM, 5 January 2021
+12:45 PM, 5 January 2022
+??:?? PM, 5 January 2022
 
 "MarkL_Build_41_61_MP_CEO_4"
 
@@ -420,6 +423,63 @@ Set server to not save player's data when they take damage.
 PlayerSaveOnDamage=true
 to
 PlayerSaveOnDamage=false
+
+================================================================================
+================================================================================
+
+2:Something PM to 3:10 PM, 8 January 2022
+3:24 PM to 3:37 PM, 8 January 2022
+5:42 PM to 5:57 PM, 8 January 2022
+After 5:57 PM to 6:15 PM, 8 January 2022
+8:13 PM to 11:31 PM, 8 January 2022
+11:49 PM, 8 January 2022 to 12:59 AM, 9 January 2022
+
+"MarkL_Build_41_61_MP_CEO_4"
+
+Surprise update!
+
+Added and update mods.
+
+Uploaded the "Update 2" archive to the cloud.
+
+Refer to the website address for more details.
+https://drive.google.com/drive/folders/18JKnxc9KT7c6sNocDHyoGN_P5oV_RfaQ?usp=sharing
+
+================================================================================
+================================================================================
+
+1:10 AM, 9 January 2022
+1:19 AM, 9 January 2022
+
+"MarkL_Build_41_61_MP_CEO_4"
+
+Updated the following mods:
+TMC_ZuperCart (now TMC_Trolley)
+...
+to be listed
+
+Added the following mods:
+RebalancedPropMoving
+EasyHeaterRepair
+PaintYourRide
+snowiswater
+SMUI
+ZREs
+TrueActions_Dancing_VHS
+CraftableSaw
+ExpandedHelicopterEvents
+Authentic Z - Current
+Authentic Z - Fashion Montage
+
+
+Update loaded_mod_ids.txt later
+
+================================================================================
+================================================================================
+
+
+
+
 
 
 
