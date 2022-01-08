@@ -161,7 +161,34 @@ https://drive.google.com/drive/folders/18JKnxc9KT7c6sNocDHyoGN_P5oV_RfaQ?usp=sha
 ================================================================================
 
 
+1:10 AM, 9 January 2022
+1:19 AM, 9 January 2022
 
+"MarkL_Build_41_61_MP_CEO_4"
+
+[🛠 Updated]
+...
+to be listed.
+
+[✅ New, Enabled]
+2699828474	/	RebalancedPropMoving	/	Rebalanced Prop Moving	/	[No Dependencies]
+2602450182	/	EasyHeaterRepair	/	Easy Heater Repair	/	[No Dependencies]
+2281256511	/	PaintYourRide	/	Paint Your Ride	/	[No Dependencies]
+2704811006	/	snowiswater	/	Snow is water	/	[No Dependencies]
+2530389024	/	SMUI	/	Shark's and Peach's Military Uniform Improvements	/	[No Dependencies]
+2372994639	/	ZREs	/	ZREs - mealZ Ready to Eat (build 41)	/	[No Dependencies]
+^
+pack=zre
+tiledef=zre 833
+2707957711	/	TrueActionsDancingVHS	/	True Actions. Act 3+. Dancing on VHS	/	[Depend: TrueActionsDancing]
+2707957711	/	TrueActionsDancingVHS_MAG	/	True Actions. Act 3+. Dancing on VHS	/	[Depend: TrueActionsDancingVHS]	/	[Disabled]
+2708559431	/	Craftable Saw	/	Craftable Saw	/	[No Dependencies]
+2458631365	/	ExpandedHelicopterEvents	/	Expanded Helicopter Events [MP PATCH OUT]	/	[Depend: EasyConfigChucked]
+2335368829	/	Authentic Z - Current	/	Authentic Z	/	[No Dependencies]
+2335368829	/	Authentic Z - Fashion Montage	/	Authentic Z	/	[Depend: Authentic Z - Current]
+
+================================================================================
+================================================================================
 
 
 
