@@ -4,16 +4,22 @@ Steam Workshop ID / Mod ID  / Steam Workshop Title
 
 2599752664	/	DylansTiles	/	Dylan's Tile Pack
 2337452747	/	Diederiks Tile Palooza	/	Daddy Dirkie dirks tiles
-2398274461	/	SaveOurStation_Core	/	Save Our Station!	[Disabled]
 2196102849	/	RavenCreek	/	Raven Сreek
 1516836158	/	FORTREDSTONE	/	Fort Redstone, KY (Build 41)
 2183283602	/	SecretBaseRoad	/	The Access Road
+
+[Updated]
 2398274461	/	SaveOurStation_KnoxCountry	/	Save Our Station!
+
 2463499011	/	Grapeseed	/	Grapeseed
 2252982049	/	lakeivytownship	/	Lake Ivy Township
 1896970089	/	GasStationMatrioshka	/	Gas Station
 1926271814	/	HQ	/	Park Rangers HQ
 2068968606	/	VSTOWN	/	Valley Station Town
+
+[Updated / Enabled]
+2398274461	/	SaveOurStation_Core	/	Save Our Station!
+
 2687798127	/	WaterDispenser	/	Water Dispenser
 2292487242	/	TowingCar	/	Better Towing (41.56+)	/	[Disabled]
 2292487242	/	HTowTruck	/	Harry's Functional Tow Truck - Chevalier Rhino	/	[Disabled]
@@ -85,7 +91,10 @@ HECUGrunt
 2651600962	/	MoarCanOpeners	/	Moar Can Openers
 modoptions
 MVF
+
+[Updated]
 2685168362	/	MoreDescriptionForTraits	/	More Description for Traits
+
 2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
 2637692469	/	PantryPacking	/	Pantry Packing
 2445720450	/	PlayableArcadeMachines41	/	Playable Arcade Machines for 41
@@ -100,8 +109,11 @@ POETRecycleEverything1
 ReduceLagofCraftingMenu
 2681575609	/	Remastered Kitsune's Crossbow Mod 1.60 Mp Fixed	/	Remastered Kitsune's Crossbow Mod MP 41.60 FIX	[Disabled]
 Repair Any Clothes
-SLEO
-SLEOBlack
+
+[Updated]
+2616752828	/	SLEO	/	Shark's Law Enforcement Overhaul
+2616752828	/	SLEOBlack	/	Shark's Law Enforcement Overhaul
+
 sizelabels41
 2503622437	/	SkillRecoveryJournal	/	Skill Recovery Journal
 sleeponit
@@ -112,66 +124,98 @@ Swatpack
 Trash and Corpses
 TrueActionsDancing
 TurksLastingJarredFoodstuffs
-POETVehicleMechanics
-POETPartsIcons
+
+
+
+POETVehicleMechanics	/	Vehicle Chop Shop [B41]
+POETPartsIcons	/	Vehicle Chop Shop [B41]
+
+
+
+
+
+
+
+
+
+
 2618566294	/	MattSimpleAddonsFriuts	/	Wild Fruits
+2478768005	/	TMC_Trolley	/	ZuperCart - Carts & Trolleys [MP updated]	/	[Depend: tsarslib] [Former Mod ID: TMC_ZuperCart]
 
-[New! from update]
-TMC_Trolley (Formerly TMC_ZuperCart)
+[Updated]
+2464581798	/	waterPipes	/	Irrigation pipes for farming and water supply [B41+]
 
-2398274461	/	SaveOurStation_Core	/	[Disabled]
-2464581798	/	waterPipes
-2422681177	/	90niva
-2197797275	/	vehiclescenes
-2033451936	/	LetMeThink	/	[Disabled]
-2184990011	/	fastkeys41
-2578727114	/	Water Purification Tablets
+2422681177	/	90niva	/	'90 Lada Niva
+2197797275	/	vehiclescenes	/	Vehicle Scenes (build 41)	/	[Depend: FRUsedCars] [Former Depend: FRUsedCars]
+2033451936	/	LetMeThink	/	Let Me Think - Open Menus and Queue Tasks While Paused [41.65+]	/	[Disabled]
+2184990011	/	fastkeys41	/	 Fast Keys
+
+[Updated]
+2578727114	/	Water Purification Tablets	/	Water Purification Tablets (build 41.53+)
+
 2684285534	/	SpnCloth	/	Spongie's Clothing
-2683041078	/	AwesomeTime
-2577903374	/	AutoDrop
-2588721141	/	RPQuickSortB41
-2629074154	/	stack_all_41
-926315905	/	svgMCerdato
+
+[Updated]
+2683041078	/	AwesomeTime	/	Soul Filcher's Awesome Time	/	[Depend: ProfessionFrameworkB41Patch]
+(pack=sfbuild, pack=SFFarm, tiledef=sfbuild 1985)
+2577903374	/	AutoDrop	/	AutoLoot
+
+2588721141	/	RPQuickSortB41	/	Quick Sort Build 41
+2629074154	/	stack_all_41	/	Stack All
+926315905	/	svgMCerdato	/	Zombie Cure Medical Cocktail [b41.65+]
 2492565135	/	Max	/	Madax's Melee Weapon Pack (Build 41.51)
 2613596656	/	CoolBag	/	CoolBag
 2566953935	/	86oshkoshP19A	/	'86 Oshkosh P19A + Military Trailers
 2544353492	/	P4HasBeenRead	/	Has Been Read
 2143039189	/	Threads	/	Thead and Twine
-2572385719  / Remastered Kitsune's Crossbow Mod	/ Remastered Kitsune's Crossbow Mod
-2560478285  / SoundDirectionIndicator / Sound Direction Indicator
+2572385719  /	Remastered Kitsune's Crossbow Mod	/	Remastered Kitsune's Crossbow Mod
+2560478285  /	SoundDirectionIndicator	/	Sound Direction Indicator
+
+[Updated]
 2689863681	/	VDK	/	Vac's Drinks
 2688538916	/	FuelAPI	/	FuelAPI
 2695471997	/	myclothinguimod	/	Clothing items grid view
+
 2611652130	/	DRK_1	/	USMC Armory
 2594865484	/	Betterhandwash	/	Better Hand Wash (41.60+)
-2684285534	/	SpnClothVanilla	/	Spongie's Clothing
+2684285534	/	SpnClothVanilla	/	Spongie's Clothing	/	[Depend: SpnCloth,ItemTweakerAPI]
+2680473910	/	TheWorkshop(new version)	/	The Workshop
+2122265954	/	ScrapWeapons(new version)	/	Scrap Weapons!	/	[Depend: TheWorkshop(new version)]
+2629286881	/	MilPoncho	/	Military Ponchos
 
+[Updated]
+2701170568	/	ExtraMapSymbols	/	Extra Map Symbols
+2588598892	/	AutoMechanics	/	AutoMechanics
 
-2680473910	/	TheWorkshop(new version)	/	The Workshop	/	[No Dependencies]
-2122265954	/	ScrapWeapons(new version)	/	Scrap Weapons!	/	[The Workshop]
-2629286881	/	MilPoncho	/	Military Ponchos	/	[No Dependencies]
-2701170568	/	ExtraMapSymbols	/	Extra Map Symbols	/	[No Dependencies]
-2588598892	/	AutoMechanics	/	AutoMechanics	/	[No Dependencies]
-2469965159	/	MFL	/	Mechanical Flashlight. (B41.56+)	/	[No Dependencies]
-2479859182	/	Homemade_Bleach	/	Homemade Bleach (Build 41.54)	/	[No Dependencies]
-2479859182	/	Homemade_Bleach_41_54	/	Homemade Bleach (Build 41.54)	/	[No Dependencies]
+2469965159	/	MFL	/	Mechanical Flashlight. (B41.56+)
+2479859182	/	Homemade_Bleach	/	Homemade Bleach (Build 41.54)
+2479859182	/	Homemade_Bleach_41_54	/	Homemade Bleach (Build 41.54)
+2699828474	/	RebalancedPropMoving	/	Rebalanced Prop Moving
+2602450182	/	EasyHeaterRepair	/	Easy Heater Repair
+2281256511	/	PaintYourRide	/	Paint Your Ride
+2704811006	/	snowiswater	/	Snow is water
+2530389024	/	SMUI	/	Shark's and Peach's Military Uniform Improvements
 
-[New!]
-2699828474	/	RebalancedPropMoving	/	Rebalanced Prop Moving	/	[No Dependencies]
-2602450182	/	EasyHeaterRepair	/	Easy Heater Repair	/	[No Dependencies]
-2281256511	/	PaintYourRide	/	Paint Your Ride	/	[No Dependencies]
-2704811006	/	snowiswater	/	Snow is water	/	[No Dependencies]
-2530389024	/	SMUI	/	Shark's and Peach's Military Uniform Improvements	/	[No Dependencies]
-2372994639	/	ZREs	/	ZREs - mealZ Ready to Eat (build 41)	/	[No Dependencies]
-^
-pack=zre
-tiledef=zre 833
+[Updated]
+2372994639	/	ZREs	/	ZREs - mealZ Ready to Eat (build 41)
+(pack=zre, tiledef=zre 833)
+
 2707957711	/	TrueActionsDancingVHS	/	True Actions. Act 3+. Dancing on VHS	/	[Depend: TrueActionsDancing]
 2707957711	/	TrueActionsDancingVHS_MAG	/	True Actions. Act 3+. Dancing on VHS	/	[Depend: TrueActionsDancingVHS]	/	[Disabled]
-2708559431	/	Craftable Saw	/	Craftable Saw	/	[No Dependencies]
+2708559431	/	Craftable Saw	/	Craftable Saw
 2458631365	/	ExpandedHelicopterEvents	/	Expanded Helicopter Events [MP PATCH OUT]	/	[Depend: EasyConfigChucked]
-2335368829	/	Authentic Z - Current	/	Authentic Z	/	[No Dependencies]
+2335368829	/	Authentic Z - Current	/	Authentic Z
 2335368829	/	Authentic Z - Fashion Montage	/	Authentic Z	/	[Depend: Authentic Z - Current]
+
+[New!]
+2684955236	/	FixedCraftableAxes	/	Fixed Craftable Axes
+2553593324	/	HowMuchFuel	/	How Much Fuel 41.51
+2688151429	/	TearUnderwear	/	Tear Underwear
+2701170568	/	ExtraMapSymbolsUI	/	Extra Map Symbols
+
+
+
+
 
 
 
@@ -179,7 +223,6 @@ tiledef=zre 833
 
 
 [Updated]
-N/A
 
 [New! from update]
 
