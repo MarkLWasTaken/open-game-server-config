@@ -114,31 +114,32 @@ Repair Any Clothes
 2616752828	/	SLEO	/	Shark's Law Enforcement Overhaul
 2616752828	/	SLEOBlack	/	Shark's Law Enforcement Overhaul
 
-sizelabels41
+
+
+
+
+
+
+
+
+
+
+
+
+
+2137687308	/	sizelabels41	/	Size Labels
 2503622437	/	SkillRecoveryJournal	/	Skill Recovery Journal
-sleeponit
-SmarterMechanics
-POETStockVanilla
-2366717227	/	SwapIt	/	Swap It
-Swatpack
-Trash and Corpses
-TrueActionsDancing
-TurksLastingJarredFoodstuffs
-
-
-
-POETVehicleMechanics	/	Vehicle Chop Shop [B41]
-POETPartsIcons	/	Vehicle Chop Shop [B41]
-
-
-
-
-
-
-
-
-
-
+2673713236	/	sleeponit	/	Sleep On It
+2454057677	/	SmarterMechanics	/	Smarter Mechanics [Beta]
+2517149036	/	POETStockVanilla	/	Vehicle Chop Shop [B41]
+2366717227	/	SwapIt	/	Swap It	/	[Depend: EasyConfigChucked]
+2091564445	/	Swatpack	/	SWAT & RIOT PACK for BUILD[41.53+]
+2475407908	/	Trash and Corpses	/	Trash and Corpses (build 41)
+(tiledef=scattered_trashes 951)
+2648779556	/	TrueActionsDancing	/	True Actions. Act 3 - Dancing [B41.56+MP]
+2681257693	/	TurksLastingJarredFoodstuffs	/	Turk's Lasting Jarred Foodstuffs
+2517149036	/	POETVehicleMechanics	/	Vehicle Chop Shop [B41]
+2517149036	/	POETPartsIcons	/	Vehicle Chop Shop [B41]
 2618566294	/	MattSimpleAddonsFriuts	/	Wild Fruits
 2478768005	/	TMC_Trolley	/	ZuperCart - Carts & Trolleys [MP updated]	/	[Depend: tsarslib] [Former Mod ID: TMC_ZuperCart]
 
