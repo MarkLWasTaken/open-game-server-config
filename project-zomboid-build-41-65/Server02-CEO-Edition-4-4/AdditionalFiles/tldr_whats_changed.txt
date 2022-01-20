@@ -2,6 +2,78 @@
 ================================================================================
 ================================================================================
 
+[✅ Enable]
+[✅ New, Enabled]
+[✅ New, Enabled as part of mod update]
+
+[🛠 Update]
+[🛠 Updated]
+
+[Map Update, caution]
+
+[❌ Disable]
+[❌ Disabled / Removed]
+
+================================================================================
+================================================================================
+
+After 11:13-AM', 20 January 2022
+, 20 January 2022
+
+"MarkL_Build_41_61_MP_CEO_4-2"
+
+
+
+(Not yet) Uploaded the "Update 4" archive to the cloud.
+
+Refer to the website address for more details.
+(WIP)
+
+
+
+[✅ New, Enabled]
+2696083206	/	wringclothes	/	Wring Out Clothing
+2688622178	/	AnaLGiNs_RenewableFoodResources	/	[41.65] AnaLGiN's Renewable Food Resources
+2714848168	/	PwSleepingbags	/	Sleeping Bags!
+(pack=packsleepingbags, tiledef=sleepingbags 690)
+2714477061	/	teacupfix	/	The Teacup Mod
+2715579154	/	RuggedRecipes	/	RuggedRecipes
+2719592131	/	RS_WaterCistern	/	TreadsWaterTankTrucks
+2721945297	/	DrivingSkill	/	Driving Skill
+2454293014	/	LoneWanderersSavingGrace	/	Lone Wanderer's Saving Grace
+
+[🛠 Updated]
+2599752664	/	DylansTiles	/	Dylan's Tile Pack
+(pack=DTilesPack, tiledef=dylanstiles 6985)
+2196102849	/	RavenCreek	/	Raven Сreek
+(pack=RC_01, tiledef=RC 783)
+2183283602	/	SecretBaseRoad	/	The Access Road
+2398274461	/	SaveOurStation_KnoxCountry	/	Save Our Station!
+(pack=swws_weather_station, tiledef=swws 6941)
+2463499011	/	Grapeseed	/	Grapeseed
+(pack=grapeseed, tiledef=ttools 2592)
+2398274461	/	SaveOurStation_Core	/	Save Our Station!
+2618213077	/	82oshkoshM911	/	'82 Oshkosh M911 + Military Semi-Trailers
+2625625421	/	isoContainers	/	Containers!
+2392676812	/	Antibodies	/	lgd_antibodies
+2423906082	/	BCGTools	/	Bushcraft Gear - Tools
+2447729538	/	FH	/	Fluffy Hair
+2553809727	/	KillCount	/	KillCount
+2650547917	/	manageContainers	/	Manage Containers
+2659216714	/	OutTheWindow	/	Just Throw Them Out The Window
+1517585848	/	PositionXY	/	Position XY
+2611723883	/	ReduceLagofCraftingMenu	/	Reduce lag of Crafting menu
+2142622992	/	RepairAnyClothes	/	Repair Any Clothes
+2618566294	/	MattSimpleAddonsFriuts	/	Wild Fruits
+2683041078	/	AwesomeTime	/	Soul Filcher's Awesome Time	/	[Depend: ProfessionFrameworkB41Patch]
+2544353492	/	P4HasBeenRead	/	Has Been Read
+2458631365	/	ExpandedHelicopterEvents	/	Expanded Helicopter Events [MP PATCH OUT]	/	[Depend: EasyConfigChucked]
+
+[✅ New, but unused]
+2707957711	/	TrueActionsDancingVHS_MAG	/	True Actions. Act 3+. Dancing on VHS	/	[Depend: TrueActionsDancingVHS]
+2719592131	/	RS_WaterCistern_FR_Overwrite	/	Tread's Water Tank Trucks [41.65]	/	[Depend: RS_WaterCistern,FRUsedCars]
+2142622992	/	RepairAnyBrita	/	Repair Any Clothes	/	[Depend: ItemTweakerAPI]
+2142622992	/	RepairAnySWAT	/	Repair Any Clothes	/	[Depend: ItemTweakerAPI]
 
 ================================================================================
 ================================================================================
