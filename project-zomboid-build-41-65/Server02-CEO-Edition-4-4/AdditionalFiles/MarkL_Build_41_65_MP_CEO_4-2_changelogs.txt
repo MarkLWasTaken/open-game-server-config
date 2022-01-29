@@ -3,6 +3,7 @@
 ================================================================================
 
 1:33 AM, 14 January 2022 (GMT +8)
+
 "MarkL_Build_41_65_MP_CEO_4-4"
 
 New save instace.
@@ -84,15 +85,24 @@ https://drive.google.com/drive/folders/1XIyedcDrkdEXpuhsU_0BABCnrzQqcQwS?usp=sha
 
 ?
 ?
+
 "MarkL_Build_41_61_MP_CEO_4-2"
 
-Update 5
+
+
+Uploaded the "Update 5" archive to the cloud.
+
+Refer to the website address for more details.
+https://drive.google.com/drive/folders/1XIyedcDrkdEXpuhsU_0BABCnrzQqcQwS?usp=sharing
+
+
 
 ================================================================================
 ================================================================================
 
 8:12 PM, 27 January 2022
 1:53 AM, 28 January 2022
+
 "MarkL_Build_41_61_MP_CEO_4-2"
 
 Update mods
@@ -104,6 +114,7 @@ Changelog unavailable. Update 6 is work in progress.
 
 12:5Something PM, 28 January 2022
 1:05 PM, 28 January 2022
+
 "MarkL_Build_41_61_MP_CEO_4-2"
 
 Config overwrites
@@ -115,6 +126,7 @@ Changelog unavailable. Update 6 is work in progress.
 
 1:05 PM, 28 January 2022
 4:39 PM, 28 January 2022
+
 "MarkL_Build_41_61_MP_CEO_4-2"
 
 Add mods
@@ -126,6 +138,7 @@ Changelog unavailable. Update 6 is work in progress.
 
 5:55 PM, 28 January 2022
 6:10 PM, 28 January 2022
+
 "MarkL_Build_41_61_MP_CEO_4-2"
 
 Add mods
@@ -134,6 +147,21 @@ Changelog unavailable. Update 6 is work in progress.
 
 ================================================================================
 ================================================================================
+
+8:5Something PM, 29 January 2022
+9:03 PM, 29 January 2022
+
+"MarkL_Build_41_61_MP_CEO_4-2"
+
+Major server update.
+It was delayed for about 4-5 days since 25 January 2022.
+
+
+
+Uploaded the "Update 6" archive to the cloud.
+
+Refer to the website address for more details.
+https://drive.google.com/drive/folders/1XIyedcDrkdEXpuhsU_0BABCnrzQqcQwS?usp=sharing
 
 
 

@@ -245,11 +245,6 @@ POETRecycleEverything1
 2688151429	/	TearUnderwear	/	Tear Underwear
 2701170568	/	ExtraMapSymbolsUI	/	Extra Map Symbols
 
-
-
-
-
-[New!]
 2696083206	/	wringclothes	/	Wring Out Clothing
 2688622178	/	AnaLGiNs_RenewableFoodResources	/	[41.65] AnaLGiN's Renewable Food Resources
 2714848168	/	PwSleepingbags	/	Sleeping Bags!
@@ -260,7 +255,43 @@ POETRecycleEverything1
 2721945297	/	DrivingSkill	/	Driving Skill
 2454293014	/	LoneWanderersSavingGrace	/	Lone Wanderer's Saving Grace
 
-[New! But unused]
+
+
+
+
+[Mod Pack 1 - Update 6]
+	/	jumpThroughWindows
+	/	refinedhotwiring
+	/	Armored Doors and Windows
+	/	PropaneBomb
+	/	RemoteCraftedV4
+	/	ThrowableStone01
+	/	BigNoiseTrap
+	/	ThrowableTinCans
+	/	Skateboard
+	/	BoredomTweaks
+	/	jiggasGreenfireMod
+	/	jiggasAddictionMod
+	/	MapLegendUI
+	/	eggonsModdingUtils
+	/	eggonsAllDoorsAreYours
+	/	agrotsar
+	/	AxesRecrafting
+	/	VPR_RecyclingCenter
+	/	VPR_VehicleSpareParts
+	/	VehicleRecycling
+	/	JarringMadeEasy
+	/	Computer
+	/	ComputerClassicsGamePack
+	/	ComputerGTAGamePack
+	/	ComputerCorporalsGamePack
+	/	RPG701
+
+
+
+
+
+[Unused]
 2707957711	/	TrueActionsDancingVHS_MAG	/	True Actions. Act 3+. Dancing on VHS	/	[Depend: TrueActionsDancingVHS]
 2719592131	/	RS_WaterCistern_FR_Overwrite	/	Tread's Water Tank Trucks [41.65]	/	[Depend: RS_WaterCistern,FRUsedCars]
 2142622992	/	RepairAnyBrita	/	Repair Any Clothes	/	[Depend: ItemTweakerAPI]
