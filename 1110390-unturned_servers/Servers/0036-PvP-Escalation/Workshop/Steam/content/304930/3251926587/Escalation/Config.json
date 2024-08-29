@@ -1,0 +1,130 @@
+{
+	"Creators": 
+	[
+		"Dug",
+		"NSTM",
+		"Witness Protection",
+		"Renaxon"
+	],
+	"Collaborators": 
+	[
+		"Animatic"
+	],
+	"Thanks": 
+	[
+		"Danaby2"
+	],
+	"Associated_Stockpile_Items": 
+	[
+        1875,
+        21065
+	],
+	"Asset": { "GUID": "de514a9b62f34afd8816864cf7a029ec" },
+	"Visible_In_Matchmaking": false,
+	"Version": "3.0.5.0",
+	"Tips": 13,
+
+	"Use_Legacy_Clip_Borders": false,
+	"Use_Legacy_Ground": true,
+	"Use_Legacy_Water": false,
+	"Use_Legacy_Objects": true,
+	"Batching_Version": 2,
+	"Use_Legacy_Oxygen_Height": true,
+	"Use_Vanilla_Bubbles": true,
+	"Terrain_Snow_Sparkle": false,
+	"Is_Aurora_Borealis_Visible": false,
+	"Has_Atmosphere": true,
+
+	"Has_Global_Electricity": false,
+	"Gravity": -9.81,
+	"Blimp_Altitude": 150,
+	"Max_Walkable_Slope": 59,
+	"Prevent_Building_Near_Spawnpoint_Radius": 16,
+	"Use_Underground_Whitelist": false,
+
+    "Mode_Config_Overrides":
+    {
+		"Items.Food_Spawns_At_Full_Quality": false,
+		"Items.Water_Spawns_At_Full_Quality": false,
+		"Items.Clothing_Has_Durability": false,
+		"Items.Clothing_Spawns_At_Full_Quality": true,
+		"Items.Weapons_Spawn_At_Full_Quality": true,
+		"Items.Weapons_Have_Durability": true,
+		"Items.Gun_Bullets_Multiplier": 1.0,
+		"Items.Magazine_Bullets_Multiplier": 1.0,
+		"Items.Crate_Bullets_Full_Chance": 1.0,
+		"Items.Crate_Bullets_Multiplier": 1.0,
+		"Players.Health_Default": 100,
+		"Players.Food_Default": 100,
+		"Players.Water_Default": 100,
+		"Players.Virus_Default": 100,
+		// 1 is keep all skills, 0 is lose all skills.
+		"Players.Lose_Skills_PvP": 1.0,
+		"Players.Lose_Skills_PvE": 1.0,
+		// 1 is drop everything, 0 is drop nothing.
+		"Players.Lose_Experience_PvP": 1,
+		"Players.Lose_Experience_PvE": 1,
+		// no XP loss.
+		"Players.Lose_Items_PvP": 1.0,
+		"Players.Lose_Items_PvE": 1.0,
+		"Players.Lose_Clothes_PvP": true,
+		"Players.Lose_Clothes_PvE": true,
+		"Players.Lose_Weapons_PvP": true,
+		"Players.Lose_Weapons_PvE": true,
+		"Players.Can_Hurt_Legs": true,
+		"Players.Can_Break_Legs": false,
+		"Players.Can_Fix_Legs": true,
+		"Players.Can_Start_Bleeding": true,
+		"Players.Can_Stop_Bleeding": true,
+		"Players.Lose_Skill_Levels_PvP": 0,
+        "Players.Lose_Skill_Levels_PvE": 0,
+		"Gameplay.ThirdPerson_RecoilMultiplier": 1.5,
+        "Gameplay.ThirdPerson_SpreadMultiplier": 1.5,
+		// Disabling for specific skill values.
+		// "Players.Spawn_With_Max_Skills": true,
+		"Zombies.Min_Drops": 1,
+		"Zombies.Min_Mega_Drops": 8,
+		"Zombies.Max_Mega_Drops": 8,
+		"Gameplay.Chart": true,
+		"Gameplay.Satellite": true,
+		"Gameplay.Compass": true,
+		"Gameplay.Ballistics": true,
+		"Gameplay.Group_Map": true,
+		"Vehicles.Armor_Multiplier": 1,
+		"Vehicles.Has_Battery_Chance": 1.0,
+		"Vehicles.Min_Battery_Charge": 1.0,
+		"Vehicles.Max_Battery_Charge": 1.0,
+		"Vehicles.Has_Tire_Chance": 1.0,
+		"Barricades.Armor_Hightier_Multiplier": 1.0,
+		"Barricades.Max_Item_Distance_From_Hull": 16,
+		"Barricades.Max_Trap_Distance_From_Hull": 4
+    },
+
+	"Spawn_Loadouts":
+	[
+		{
+			"Table_ID": 51155,
+			"Amount": 1
+		},
+		{
+			"Table_ID": 51156,
+			"Amount": 1
+		}
+	],
+	
+	//All options for the config overrides can be found at this link :
+	//https://unturned.fandom.com/wiki/Gameplay_Config
+
+	"PlayerUI_HealthVisible": true,
+	"PlayerUI_FoodVisible": true,
+	"PlayerUI_WaterVisible": true,
+	"PlayerUI_VirusVisible": true,
+	"PlayerUI_StaminaVisible": true,
+	"PlayerUI_OxygenVisible": true,
+	"PlayerUI_GunVisible": true,
+	"Allow_Crafting": true,
+	"Allow_Skills": true,
+	"Allow_Information": true
+
+	
+}
