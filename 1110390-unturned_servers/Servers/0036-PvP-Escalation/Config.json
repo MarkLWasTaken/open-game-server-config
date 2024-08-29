@@ -615,7 +615,7 @@
       "Slow_Movement": false,
       "Can_Stun": false,
       "Only_Critical_Stuns": true,
-      "Weapons_Use_Player_Damage": true,
+      "Weapons_Use_Player_Damage": false,
       "Can_Target_Barricades": true,
       "Can_Target_Structures": true,
       "Can_Target_Vehicles": true,
@@ -632,7 +632,7 @@
       "Max_Instances_Medium": 16,
       "Max_Instances_Large": 32,
       "Max_Instances_Insane": 64,
-      "Weapons_Use_Player_Damage": true
+      "Weapons_Use_Player_Damage": false
     },
     "Barricades": {
       "Decay_Time": 14515200,
