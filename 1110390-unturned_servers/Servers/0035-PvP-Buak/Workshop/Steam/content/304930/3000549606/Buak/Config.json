@@ -1,0 +1,104 @@
+{
+	"Creators":
+	[
+		"Toothy Deerryte"
+	],
+	"Collaborators":
+	[
+		"staswalle",
+		"Paulfest",
+		"Emizip",
+		"Dug"
+	],
+	"Thanks":
+	[
+		"NSTM",
+		"Kel Cat",
+		"Animatic",
+		"Der Ente",
+		"Great Hero J",
+		"Tridentgames",
+		"EnderButDragon",
+		"SomebodyOnEarth",
+		"SirAdy UNLEASHED"
+	],
+	"Associated_Stockpile_Items":
+    [
+        21061,
+        1351,
+        1352,
+    ],
+	"Tips": 42,
+	"Use_Legacy_Ground": false,
+	"Use_Legacy_Water": false,
+	"Use_Underground_Whitelist": true,
+	"Allow_Holiday_Redirects": true,
+	"Has_Discord_Rich_Presence": true,
+	"Visible_In_Matchmaking": true,
+	"Allow_Per_Character_Saves": false,
+	"Should_Verify_Objects_Hash": true,
+	"Version": "7.24.4.3",
+	"Batching_Version": 2,
+	"Mode_Config_Overrides":
+	{
+		"Zombies.Armor_Multiplier":1.1,
+		"Zombies.Min_Mega_Drops":8,
+		"Zombies.Max_Mega_Drops":12,
+		"Structures.Gun_Highcal_Damage_Multiplier":1.0,
+		"Events.Airdrop_Frequency_Min": 2,
+		"Events.Airdrop_Frequency_Max": 3.5,
+		"Events.Airdrop_Speed": 125.0,
+		"Events.Airdrop_Force": 9.77,
+		"Players.Experience_Multiplier": 1,
+		"Players.Health_Regen_Min_Food": 80,
+		"Players.Health_Regen_Min_Water": 50,
+		"Players.Lose_Skills_PvP": 1,
+        "Players.Lose_Skills_PvE": 1,
+		"Players.Virus_Infect": 10,
+		"Players.Virus_Use_Ticks": 10,
+		"Players.Virus_Damage_Ticks": 5,
+		"Players.Allow_Per_Character_Saves": false,
+		"Vehicles.Max_Instances_Large": 30,
+		"Vehicles.Melee_Repair_Multiplier": 4.0,
+		"Players.Water_Use_Ticks": 1000,
+		"Players.Water_Damage_Ticks": 60,
+		"Players.Food_Use_Ticks": 3000,
+		"Players.Food_Damage_Ticks": 500,
+		"Players.Bleed_Damage_Ticks": 40,
+		"Players.Can_Stop_Bleeding": false,
+		"Players.Leg_Regen_Ticks": 3900,
+		"Players.Health_Default": 50,
+		"Players.Food_Default": 20,
+		"Players.Water_Default": 50,
+		"Players.Virus_Default": 80,
+		"Barricades.Allow_Item_Placement_On_Vehicle": false,
+		"Barricades.Allow_Trap_Placement_On_Vehicle": false,
+		"Items.Quality_Full_Chance": 0,
+		"Items.Gun_Bullets_Full_Chance": 0,
+		"Items.Despawn_Dropped_Time": 1800.0,
+		"Animals.Max_Instances_Large":64
+	},
+	
+	"Trains":
+    [
+        {
+            "VehicleID": 25301,
+            "RoadIndex": 61
+        },
+		{
+            "VehicleID": 25302,
+            "RoadIndex": 44
+        },
+		{
+            "VehicleID": 25303,
+            "RoadIndex": 117
+        }
+    ],
+	"Asset": { "GUID": "968b1b2aa87f417ab6b5a203f5ed14df" },
+	"Weather": { "GUID": "60b8e7b5fd9947b283085f1dfef4fc8f" },
+	"Weather": { "GUID": "4192e9d5c65e4ba0892497fe6f6c10ea" },
+	"Weather": { "GUID": "dbfe6c26c93c45b0a75efbf8c9b75039" },
+	"Weather": { "GUID": "41b72bc234fe467bbb63e1916d965b5c" },
+	"Weather": { "GUID": "3171ef26a2b6400fa5df0e38ff73f3c5" },
+	"Weather": { "GUID": "5aaea03fe29e4dce97158e8684ce94c7" }
+}
