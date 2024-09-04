@@ -588,9 +588,9 @@
       "Flanker_Chance": 0.05,
       "Burner_Chance": 0.05,
       "Acid_Chance": 0.05,
-      "Boss_Electric_Chance": 0.0,
-      "Boss_Wind_Chance": 0.0,
-      "Boss_Fire_Chance": 0.0,
+      "Boss_Electric_Chance": 0.005,
+      "Boss_Wind_Chance": 0.005,
+      "Boss_Fire_Chance": 0.005,
       "Spirit_Chance": 0.0,
       "DL_Red_Volatile_Chance": 0.0,
       "DL_Blue_Volatile_Chance": 0.0,
@@ -615,7 +615,7 @@
       "Slow_Movement": false,
       "Can_Stun": false,
       "Only_Critical_Stuns": true,
-      "Weapons_Use_Player_Damage": true,
+      "Weapons_Use_Player_Damage": false,
       "Can_Target_Barricades": true,
       "Can_Target_Structures": true,
       "Can_Target_Vehicles": true,
@@ -625,14 +625,14 @@
     },
     "Animals": {
       "Respawn_Time": 180.0,
-      "Damage_Multiplier": 1.5,
+      "Damage_Multiplier": 1.15,
       "Armor_Multiplier": 0.75,
       "Max_Instances_Tiny": 4,
       "Max_Instances_Small": 8,
       "Max_Instances_Medium": 16,
       "Max_Instances_Large": 32,
       "Max_Instances_Insane": 64,
-      "Weapons_Use_Player_Damage": true
+      "Weapons_Use_Player_Damage": false
     },
     "Barricades": {
       "Decay_Time": 14515200,
