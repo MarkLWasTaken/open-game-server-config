@@ -1,10 +1,10 @@
 {
   "Browser": {
-    "Icon": "",
-    "Thumbnail": "",
-    "Desc_Hint": "",
-    "Desc_Full": "",
-    "Desc_Server_List": "",
+    "Icon": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/304930/e18009fb628b35953826efe47dc3be556b689f4c.jpg",
+    "Thumbnail": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/304930/e18009fb628b35953826efe47dc3be556b689f4c.jpg",
+    "Desc_Hint": "Mark's Unturned Server | Arid | Hard | PvP",
+    "Desc_Full": "Mark's Unturned Server | Arid | Hard | PvP",
+    "Desc_Server_List": "Mark's Unturned Server | Arid | Hard | PvP",
     "Login_Token": "",
     "BookmarkHost": "",
     "Monetization": "Unspecified",
@@ -13,7 +13,7 @@
   "Server": {
     "VAC_Secure": true,
     "BattlEye_Secure": true,
-    "Max_Ping_Milliseconds": 750,
+    "Max_Ping_Milliseconds": 10000,
     "Timeout_Queue_Seconds": 15.0,
     "Timeout_Game_Seconds": 30.0,
     "Max_Packets_Per_Second": 50.0,
@@ -24,7 +24,7 @@
     "Enable_Kick_Input_Spam": false,
     "Enable_Kick_Input_Timeout": false,
     "Enable_Scheduled_Shutdown": false,
-    "Scheduled_Shutdown_Time": "1:30 am",
+    "Scheduled_Shutdown_Time": "12:30 am",
     "Scheduled_Shutdown_Warnings": [
       "00:30:00",
       "00:15:00",
@@ -59,7 +59,7 @@
   "Easy": {
     "Items": {
       "Spawn_Chance": 0.35,
-      "Despawn_Dropped_Time": 600.0,
+      "Despawn_Dropped_Time": 7200.0,
       "Despawn_Natural_Time": 900.0,
       "Respawn_Time": 50.0,
       "Quality_Full_Chance": 0.1,
@@ -80,7 +80,7 @@
       "Weapons_Have_Durability": false
     },
     "Vehicles": {
-      "Decay_Time": 604800.0,
+      "Decay_Time": 14515200.0,
       "Decay_Damage_Per_Second": 0.1,
       "Has_Battery_Chance": 1.0,
       "Min_Battery_Charge": 0.8,
@@ -155,7 +155,7 @@
       "Weapons_Use_Player_Damage": false
     },
     "Barricades": {
-      "Decay_Time": 604800,
+      "Decay_Time": 14515200,
       "Armor_Lowtier_Multiplier": 1.0,
       "Armor_Hightier_Multiplier": 0.5,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
@@ -168,7 +168,7 @@
       "Max_Trap_Distance_From_Hull": 16.0
     },
     "Structures": {
-      "Decay_Time": 604800,
+      "Decay_Time": 14515200,
       "Armor_Lowtier_Multiplier": 1.0,
       "Armor_Hightier_Multiplier": 0.5,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
@@ -299,7 +299,7 @@
   "Normal": {
     "Items": {
       "Spawn_Chance": 0.35,
-      "Despawn_Dropped_Time": 600.0,
+      "Despawn_Dropped_Time": 7200.0,
       "Despawn_Natural_Time": 900.0,
       "Respawn_Time": 100.0,
       "Quality_Full_Chance": 0.1,
@@ -320,7 +320,7 @@
       "Weapons_Have_Durability": true
     },
     "Vehicles": {
-      "Decay_Time": 604800.0,
+      "Decay_Time": 14515200.0,
       "Decay_Damage_Per_Second": 0.1,
       "Has_Battery_Chance": 0.8,
       "Min_Battery_Charge": 0.5,
@@ -395,7 +395,7 @@
       "Weapons_Use_Player_Damage": false
     },
     "Barricades": {
-      "Decay_Time": 604800,
+      "Decay_Time": 14515200,
       "Armor_Lowtier_Multiplier": 1.0,
       "Armor_Hightier_Multiplier": 0.5,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
@@ -408,7 +408,7 @@
       "Max_Trap_Distance_From_Hull": 16.0
     },
     "Structures": {
-      "Decay_Time": 604800,
+      "Decay_Time": 14515200,
       "Armor_Lowtier_Multiplier": 1.0,
       "Armor_Hightier_Multiplier": 0.5,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
@@ -539,7 +539,7 @@
   "Hard": {
     "Items": {
       "Spawn_Chance": 0.15,
-      "Despawn_Dropped_Time": 600.0,
+      "Despawn_Dropped_Time": 7200.0,
       "Despawn_Natural_Time": 900.0,
       "Respawn_Time": 150.0,
       "Quality_Full_Chance": 0.01,
@@ -560,7 +560,7 @@
       "Weapons_Have_Durability": true
     },
     "Vehicles": {
-      "Decay_Time": 604800.0,
+      "Decay_Time": 14515200.0,
       "Decay_Damage_Per_Second": 0.1,
       "Has_Battery_Chance": 0.25,
       "Min_Battery_Charge": 0.1,
@@ -635,7 +635,7 @@
       "Weapons_Use_Player_Damage": true
     },
     "Barricades": {
-      "Decay_Time": 604800,
+      "Decay_Time": 14515200,
       "Armor_Lowtier_Multiplier": 1.0,
       "Armor_Hightier_Multiplier": 0.5,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
@@ -648,7 +648,7 @@
       "Max_Trap_Distance_From_Hull": 16.0
     },
     "Structures": {
-      "Decay_Time": 604800,
+      "Decay_Time": 14515200,
       "Armor_Lowtier_Multiplier": 1.0,
       "Armor_Hightier_Multiplier": 0.5,
       "Gun_Lowcal_Damage_Multiplier": 1.0,
@@ -745,8 +745,8 @@
     },
     "Gameplay": {
       "Repair_Level_Max": 3,
-      "Hitmarkers": false,
-      "Crosshair": false,
+      "Hitmarkers": true,
+      "Crosshair": true,
       "Ballistics": true,
       "Chart": false,
       "Satellite": false,
