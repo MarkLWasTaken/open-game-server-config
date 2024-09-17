@@ -1,0 +1,103 @@
+{
+	"Creators":
+	[
+		"Daniel \"danaby2\" Segboer"
+	],
+	"Collaborators":
+	[
+		"Renaxon",
+		"LVOmega"
+	],
+	"Thanks":
+	[
+		"staswalle",
+		"Lukas \"lusod\" Söderhjelm",
+		"zeb",
+		"Witness Protection",
+		"Der Ente",
+		"EnderButDragon"
+	],
+	"Associated_Stockpile_Items":
+	[
+		21057,
+		1287
+	],
+	"Tips": 1,
+	"Has_Discord_Rich_Presence": true,
+	"Visible_In_Matchmaking": true,
+	"Batching_Version": 2,
+	"Use_Legacy_Water": false,
+	"Is_Aurora_Borealis_Visible": false,
+	"Should_Verify_Objects_Hash": true,
+	"Use_Vanilla_Bubbles": false,
+	"Version": "1.0.3.3",
+	"Asset": { "GUID": "77e3a2e0fd6b4c768928dc2861888a6e" },
+	"Gravity": -8.6,
+	"Use_Legacy_Clip_Borders": false,
+	"Use_Legacy_Ground": false,
+	"Use_Underground_Whitelist": true,
+	"Trains":
+	[
+		{
+			"VehicleID": 36024,
+			"RoadIndex": 40
+		},
+		{
+			"VehicleID": 36026,
+			"RoadIndex": 96
+		}
+	],
+	"Mode_Config_Overrides":
+	{
+		"Animals.Max_Instances_Medium":256,
+		"Items.Quality_Full_Chance":0.25,
+        "Barricades.Allow_Item_Placement_On_Vehicle": false,
+        "Barricades.Allow_Trap_Placement_On_Vehicle": false,
+		"Barricades.Gun_Lowcal_Damage_Multiplier":1.0,
+        "Barricades.Gun_Highcal_Damage_Multiplier":1.0,
+		"Barricades.Armor_Lowtier_Multiplier": 1.0,
+		"Barricades.Armor_Hightier_Multiplier": 1.0,
+		"Structures.Gun_Lowcal_Damage_Multiplier":1.0,
+		"Structures.Gun_Highcal_Damage_Multiplier":1.0,
+		"Structures.Armor_Lowtier_Multiplier": 1.0,
+		"Structures.Armor_Hightier_Multiplier": 1.0,
+		"Structures.Melee_Damage_Multiplier": 1.0,
+		"Structures.Melee_Repair_Multiplier": 1.0,
+		"Events.Airdrop_Speed": 96.0,
+		"Events.Airdrop_Force": 8.55,
+		"Vehicles.Gun_Lowcal_Damage_Multiplier": 2.0,
+		"Vehicles.Melee_Damage_Multiplier": 2.0,
+		"Vehicles.Min_Battery_Charge" : 1.0,
+		"Vehicles.Max_Battery_Charge" : 1.0,
+		"Vehicles.Has_Battery_Chance" : 1.0,
+		"Vehicles.Max_Instances_Medium": 48,
+		"Vehicles.Armor_Multiplier" : 0.375,
+		"Players.Experience_Multiplier": 1,
+		"Players.Lose_Skills_PvP": 1.0,
+        "Players.Lose_Skills_PvE": 1.0,
+		"Players.Lose_Experience_PvP": 1.0,
+		"Players.Lose_Experience_PvE": 1.0,
+		"Players.Virus_Infect": 20,
+		"Players.Can_Break_Legs": false,
+		"Zombies.Armor_Multiplier":1.0,
+		"Zombies.Full_Moon_Experience_Multiplier":2,
+		"Zombies.Spawn_Chance": 1,
+		"Zombies.Min_Mega_Drops": 1,
+		"Zombies.Max_Mega_Drops": 1,
+		"Zombies.Min_Boss_Drops": 1,
+		"Zombies.Max_Boss_Drops": 1,
+		"Zombies.Loot_Chance": 1,
+		"Gameplay.Chart": true
+	},
+	"Spawn_Loadouts":
+	[
+		{
+			"Table_ID": 36125,
+			"Amount": 1
+		},
+		{
+			"Table_ID": 36126,
+			"Amount": 1
+		}
+	]
+}
