@@ -751,7 +751,7 @@
       "Chart": false,
       "Satellite": false,
       "Compass": false,
-      "Group_Map": false,
+      "Group_Map": true,
       "Group_HUD": true,
       "Group_Player_List": true,
       "Allow_Static_Groups": true,
