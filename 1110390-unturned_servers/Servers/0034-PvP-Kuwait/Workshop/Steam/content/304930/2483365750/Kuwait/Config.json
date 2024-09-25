@@ -1,0 +1,53 @@
+{
+	"Creators":
+	[
+		"AnimaticFreak",
+		"NSTM"
+	],
+	"Thanks":
+	[
+		"Danaby2",
+		"Renaxon",
+		"DieselsiselMedia",
+		"Leprechan12",
+		"FalkenJr",
+		"Corp",
+		"SirAdy",
+		"SomebodyOnEarth"
+	],
+	"Associated_Stockpile_Items":
+    [
+        1193,
+        1194,
+        1195,
+        1196,
+        1197,
+    ],
+	"Tips": 26,
+	"Use_Legacy_Ground": false,
+	"Has_Discord_Rich_Presence": true,
+	"Visible_In_Matchmaking": true,
+	"Should_Verify_Objects_Hash": true,
+	"Version": "2.0.0.0",
+	"Mode_Config_Overrides":
+	{
+		"Zombies.Slow_Movement": false,
+		"Zombies.Armor_Multiplier":1.1,
+		"Zombies.Min_Mega_Drops":4,
+		"Zombies.Max_Mega_Drops":5,
+		"Structures.Gun_Highcal_Damage_Multiplier":1.0,
+		"Events.Airdrop_Speed": 128.0,
+		"Events.Airdrop_Force": 7.25,
+		"Players.Experience_Multiplier": 0.5,
+		"Players.Lose_Skills_PvP": 1,
+        "Players.Lose_Skills_PvE": 1,
+		"Players.Virus_Infect": 49,
+		"Gameplay.Satellite": false,
+		"Gameplay.Chart": true,
+		"Vehicles.Max_Instances_Large": 48,
+		"Players.Water_Use_Ticks": 240,
+		"Players.Water_Damage_Ticks": 20
+	},
+	"Asset": { "GUID": "1ddc3c555caa43da8f1f05863be5279b" },
+	"Weather": { "GUID": "655f1ef7a7924d18a30c0e4c4b3ebeb0" } 
+}
