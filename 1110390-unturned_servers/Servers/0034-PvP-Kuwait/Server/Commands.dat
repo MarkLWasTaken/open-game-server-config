@@ -1,9 +1,9 @@
-Name Mark's Unturned Server | Vanilla PvP | Kuwait
-Port 27015
-MaxPlayers 24
+GSLT
 Map Kuwait
-Perspective Both
+MaxPlayers 32
 Mode Normal
+Name Mark's Unturned Server [PvP] [Co-op] [Kuwait]
+Perspective Both
+Timeout 10000
+Welcome Welcome to Mark's Unturned Server! You're now playing on Kuwait, Normal with PvP./173/216/230
 Log Y/Y/Y/Y
-Timeout 9999
-Welcome Welcome_to_Mark's_Unturned_Server!_Enjoy_your_stay./144/238/144
