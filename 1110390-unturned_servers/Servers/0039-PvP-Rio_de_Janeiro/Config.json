@@ -7,6 +7,7 @@
     "Desc_Server_List": "Mark's Unturned Server | Rio de Janeiro | Hard | PvP",
     "Login_Token": "",
     "BookmarkHost": "",
+    "Is_Using_Anycast_Proxy": false,
     "Monetization": "Unspecified",
     "Links": null
   },
@@ -16,8 +17,12 @@
     "Max_Ping_Milliseconds": 10000,
     "Timeout_Queue_Seconds": 15.0,
     "Timeout_Game_Seconds": 30.0,
-    "Max_Packets_Per_Second": 50.0,
+    "Join_Rate_Limit_Window_Seconds": 40.0,
+    "Bad_Packet_Rate_Limit_Window_Seconds": 2.5,
+    "Bad_Packet_Rate_Limit_Threshold": 10,
     "Rate_Limit_Kick_Threshold": 10,
+    "Max_Clients_With_Same_IP_Address": 64,
+    "Max_Clients_With_Same_IP_Address_Log_Warnings": true,
     "Fake_Lag_Threshold_Seconds": 3.0,
     "Fake_Lag_Log_Warnings": false,
     "Fake_Lag_Damage_Penalty_Multiplier": 0.1,
@@ -48,7 +53,8 @@
       "00:00:01"
     ],
     "Validate_EconInfo_Hash": true,
-    "Use_FakeIP": false
+    "Use_FakeIP": false,
+    "Reset_Vehicles_Outside_Horizontal_Distance": 40000.0
   },
   "UnityEvents": {
     "Allow_Server_Messages": false,
@@ -98,7 +104,8 @@
       "Max_Instances_Small": 8,
       "Max_Instances_Medium": 16,
       "Max_Instances_Large": 32,
-      "Max_Instances_Insane": 64
+      "Max_Instances_Insane": 64,
+      "Min_Natural_Vehicles": 16
     },
     "Zombies": {
       "Spawn_Chance": 0.2,
@@ -139,6 +146,7 @@
       "Can_Target_Barricades": true,
       "Can_Target_Structures": true,
       "Can_Target_Vehicles": true,
+      "Can_Target_Objects": true,
       "Beacon_Max_Rewards": 0,
       "Beacon_Max_Participants": 0,
       "Beacon_Rewards_Multiplier": 1.0
@@ -284,6 +292,9 @@
       "Allow_Holidays": true,
       "Allow_Freeform_Buildables": true,
       "Allow_Freeform_Buildables_On_Vehicles": true,
+      "Enable_Damage_Flinch": true,
+      "Enable_Explosion_Camera_Shake": true,
+      "Enable_Workstation_Requirements": true,
       "Timer_Exit": 10,
       "Timer_Respawn": 10,
       "Timer_Home": 30,
@@ -338,7 +349,8 @@
       "Max_Instances_Small": 8,
       "Max_Instances_Medium": 16,
       "Max_Instances_Large": 32,
-      "Max_Instances_Insane": 64
+      "Max_Instances_Insane": 64,
+      "Min_Natural_Vehicles": 16
     },
     "Zombies": {
       "Spawn_Chance": 0.25,
@@ -379,6 +391,7 @@
       "Can_Target_Barricades": true,
       "Can_Target_Structures": true,
       "Can_Target_Vehicles": true,
+      "Can_Target_Objects": true,
       "Beacon_Max_Rewards": 0,
       "Beacon_Max_Participants": 0,
       "Beacon_Rewards_Multiplier": 1.0
@@ -524,6 +537,9 @@
       "Allow_Holidays": true,
       "Allow_Freeform_Buildables": true,
       "Allow_Freeform_Buildables_On_Vehicles": true,
+      "Enable_Damage_Flinch": true,
+      "Enable_Explosion_Camera_Shake": true,
+      "Enable_Workstation_Requirements": true,
       "Timer_Exit": 10,
       "Timer_Respawn": 10,
       "Timer_Home": 30,
@@ -578,7 +594,8 @@
       "Max_Instances_Small": 8,
       "Max_Instances_Medium": 16,
       "Max_Instances_Large": 32,
-      "Max_Instances_Insane": 64
+      "Max_Instances_Insane": 64,
+      "Min_Natural_Vehicles": 16
     },
     "Zombies": {
       "Spawn_Chance": 0.3,
@@ -601,15 +618,15 @@
       "Respawn_Beacon_Time": 0.0,
       "Quest_Boss_Respawn_Interval": 600.0,
       "Damage_Multiplier": 1.5,
-      "Armor_Multiplier": 0.75,
+      "Armor_Multiplier": 1.0,
       "Backstab_Multiplier": 1.25,
       "NonHeadshot_Armor_Multiplier": 1.0,
       "Beacon_Experience_Multiplier": 1.0,
       "Full_Moon_Experience_Multiplier": 2.0,
       "Min_Drops": 1,
-      "Max_Drops": 1,
+      "Max_Drops": 3,
       "Min_Mega_Drops": 5,
-      "Max_Mega_Drops": 5,
+      "Max_Mega_Drops": 6,
       "Min_Boss_Drops": 8,
       "Max_Boss_Drops": 10,
       "Slow_Movement": false,
@@ -619,6 +636,7 @@
       "Can_Target_Barricades": true,
       "Can_Target_Structures": true,
       "Can_Target_Vehicles": true,
+      "Can_Target_Objects": true,
       "Beacon_Max_Rewards": 0,
       "Beacon_Max_Participants": 0,
       "Beacon_Rewards_Multiplier": 1.0
@@ -626,7 +644,7 @@
     "Animals": {
       "Respawn_Time": 180.0,
       "Damage_Multiplier": 1.15,
-      "Armor_Multiplier": 0.75,
+      "Armor_Multiplier": 1.0,
       "Max_Instances_Tiny": 4,
       "Max_Instances_Small": 8,
       "Max_Instances_Medium": 16,
@@ -764,6 +782,9 @@
       "Allow_Holidays": true,
       "Allow_Freeform_Buildables": true,
       "Allow_Freeform_Buildables_On_Vehicles": true,
+      "Enable_Damage_Flinch": true,
+      "Enable_Explosion_Camera_Shake": true,
+      "Enable_Workstation_Requirements": true,
       "Timer_Exit": 10,
       "Timer_Respawn": 10,
       "Timer_Home": 30,
