@@ -590,12 +590,12 @@
       "Gun_Highcal_Damage_Multiplier": 1.0,
       "Melee_Damage_Multiplier": 1.0,
       "Melee_Repair_Multiplier": 1.0,
-      "Max_Instances_Tiny": 4,
-      "Max_Instances_Small": 8,
-      "Max_Instances_Medium": 16,
-      "Max_Instances_Large": 32,
-      "Max_Instances_Insane": 64,
-      "Min_Natural_Vehicles": 16
+      "Max_Instances_Tiny": 128,
+      "Max_Instances_Small": 128,
+      "Max_Instances_Medium": 128,
+      "Max_Instances_Large": 128,
+      "Max_Instances_Insane": 128,
+      "Min_Natural_Vehicles": 128
     },
     "Zombies": {
       "Spawn_Chance": 0.3,
@@ -621,7 +621,7 @@
       "Armor_Multiplier": 1.0,
       "Backstab_Multiplier": 1.25,
       "NonHeadshot_Armor_Multiplier": 1.0,
-      "Beacon_Experience_Multiplier": 1.0,
+      "Beacon_Experience_Multiplier": 2.0,
       "Full_Moon_Experience_Multiplier": 2.0,
       "Min_Drops": 1,
       "Max_Drops": 3,
