@@ -1188,15 +1188,15 @@ Gameplay
 
 	// > Are sentry guns and beds allowed on vehicles?
 	// > Default: False
-	Bypass_Buildable_Mobility
+	Bypass_Buildable_Mobility True
 
 	// > If true, buildables can be placed in "no building" zones.
 	// > Default: False
-	Bypass_No_Building_Zones
+	Bypass_No_Building_Zones True
 
 	// > If true, buildables can be placed in safezones.
 	// > Default: False
-	Bypass_Building_In_Safezones
+	Bypass_Building_In_Safezones True
 
 	// > Should holiday (Halloween and Christmas) content like NPC outfits and decorations be loaded?
 	// > Default: True
