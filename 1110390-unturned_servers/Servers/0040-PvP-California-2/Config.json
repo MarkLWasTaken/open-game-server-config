@@ -778,7 +778,7 @@
       "Allow_Shoulder_Camera": true,
       "Can_Suicide": true,
       "Friendly_Fire": false,
-      "Bypass_Buildable_Mobility": false,
+      "Bypass_Buildable_Mobility": true,
       "Allow_Holidays": true,
       "Allow_Freeform_Buildables": true,
       "Allow_Freeform_Buildables_On_Vehicles": true,
