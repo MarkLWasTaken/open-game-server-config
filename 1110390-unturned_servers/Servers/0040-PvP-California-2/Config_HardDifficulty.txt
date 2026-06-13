@@ -1,0 +1,1319 @@
+﻿// > Unturned Server Configuration File
+// > 
+// > Lines beginning with // are comments.
+// > Comments beginning with > are auto-generated.
+// > Any comments you write (without >) will be preserved.
+// > 
+// > Settings without a value use the default for the mode (easy/normal/hard).
+// > For example, this setting would use the default:
+// > 
+// > Setting
+// > 
+// > Whereas this setting is overridden with value four:
+// > 
+// > Setting 4
+// > 
+Version 1
+
+Browser
+{
+	// > URL of a 64x64 image shown in the upper-left of the server lobby menu.
+	Icon https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/304930/e18009fb628b35953826efe47dc3be556b689f4c.jpg
+
+	// > URL of a 32x32 image shown in the server list.
+	Thumbnail https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/304930/e18009fb628b35953826efe47dc3be556b689f4c.jpg
+
+	// > Short description underneath the server name in the server lobby menu.
+	Desc_Hint Mark's Unturned Server | California 2 | Hard | PvP
+
+	// > Long description in the lower-right of the server lobby menu.
+	Desc_Full Mark's Unturned Server | California 2 | Hard | PvP
+
+	// > Short description underneath the server name in the server list.
+	Desc_Server_List Mark's Unturned Server | California 2 | Hard | PvP
+
+	// > Documentation: https://docs.smartlydressedgames.com/en/stable/servers/game-server-login-tokens.html
+	// > To generate a new token visit: https://steamcommunity.com/dev/managegameservers
+	Login_Token 30C632232E884D0F31DA88B85E6728AB
+
+	// > IP address, DNS name, or a web address (to perform GET request) to advertise.
+	// > 
+	// > Servers not using Fake IP can specify just a DNS entry. This way if server's IP changes clients can rejoin.
+	// > For example, if you own the "example.com" domain you could add an A record "myunturnedserver" pointing at
+	// > your game server IP and set that record here "myunturnedserver.example.com".
+	// > 
+	// > Servers using Fake IP are assigned random ports at startup, but can implement a web API endpoint to return
+	// > the IP and port. Clients perform a GET request if this string starts with http:// or https://. The returned
+	// > text can be an IP address or DNS name with optional query port override. (e.g., "127.0.0.1:27015")
+	// > 
+	// > Documentation: https://docs.smartlydressedgames.com/en/stable/servers/bookmark-host.html
+	BookmarkHost
+
+	// > If true, the server lobby warns that in-game ping may be higher than shown.
+	// > Default: False
+	Is_Using_Anycast_Proxy
+
+	// > How the server is monetized (if at all).
+	// > Options: Unspecified, Any, None, NonGameplay, Monetized
+	// > Default: Unspecified
+	Monetization
+
+	// > Buttons shown in the server lobby menu. For example:
+	// > ` Links
+	// > ` [
+	// > `     {
+	// > `         Message Visit our website!
+	// > `         URL https://smartlydressedgames.com/
+	// > `     }
+	// > ` ]
+	Links
+}
+
+Server
+{
+	// > Players with a ping higher than this are kicked.
+	// > Default: 750
+	Max_Ping_Milliseconds 10000
+
+	// > When the server should shutdown if Enable_Scheduled_Shutdown is true.
+	// > Default: 1:30 am
+	Scheduled_Shutdown_Time 12:30 am
+
+	// > Whether to enable Valve Anti-Cheat.
+	// > Default: True
+	VAC_Secure
+
+	// > Whether to enable BattlEye Anti-Cheat.
+	// > Default: True
+	BattlEye_Secure
+
+	// > Players in the pre-join queue we haven't heard from in this past number of seconds are kicked.
+	// > Default: 15
+	Timeout_Queue_Seconds
+
+	// > Players in the server we haven't heard from in this past number of seconds are kicked.
+	// > Default: 30
+	Timeout_Game_Seconds
+
+	// > Default: 0
+	Max_Packets_Per_Second
+
+	// > If ready-to-connect messages are received more than twice from the same client in less than this many
+	// > seconds they will be kicked.
+	// > Default: 40
+	Join_Rate_Limit_Window_Seconds
+
+	// > If bad packets (that *may* be legitimate) are received more than threshold times within this many seconds
+	// > of each other, reject the calling connection.
+	// > Default: 2.5
+	Bad_Packet_Rate_Limit_Window_Seconds
+
+	// > If more than this many bad packets (that *may* be legitimate) are received within window seconds of each
+	// > other, reject the calling connection.
+	// > Default: 10
+	Bad_Packet_Rate_Limit_Threshold
+
+	// > If a rate-limited method is called this many times within cooldown window the client will be kicked.
+	// > For example a value of 1 means the client will be kicked the first time they call the method off-cooldown. (not recommended)
+	// > Default: 10
+	Rate_Limit_Kick_Threshold
+
+	// > Only applicable when Fake IP is off. When a client is connecting, if their connection would push the number
+	// > of simultaneous connections from the same IP address past this number, they are prevented from joining.
+	// > 
+	// > May be useful to prevent against fake join requests coming from a single source IP. (public issue #5001)
+	// > 
+	// > Defaults to a high value because some regions will have many more clients with the same IPv4 address than
+	// > others. For example, due to Carrier-grade NAT (CGNAT).
+	// > Default: 64
+	Max_Clients_With_Same_IP_Address
+
+	// > Whether rejections for Max_Clients_With_Same_IP_Address should log to command output. Useful for checking
+	// > if the limit is appropriate.
+	// > Default: True
+	Max_Clients_With_Same_IP_Address_Log_Warnings
+
+	// > Ordinarily the server should be receiving multiple input packets per second from a client. If more than this
+	// > amount of time passes between input packets we flag the client as potentially using a lag switch, and modify
+	// > their stats (e.g. reduce player damage) for a corresponding duration.
+	// > Default: 3
+	Fake_Lag_Threshold_Seconds
+
+	// > Whether fake lag detection should log to command output. False positives are relatively likely when client
+	// > framerate hitches (e.g. loading dense region), so this is best used for tuning threshold rather than bans.
+	// > Default: False
+	Fake_Lag_Log_Warnings
+
+	// > PvP damage multiplier while under fake lag penalty.
+	// > Default: 0.1
+	Fake_Lag_Damage_Penalty_Multiplier
+
+	// > Should we kick players after detecting spammed calls to askInput?
+	// > Default: False
+	Enable_Kick_Input_Spam
+
+	// > Should we kick players if they do not submit inputs for a long time?
+	// > Default: False
+	Enable_Kick_Input_Timeout
+
+	// > Should the server automatically shutdown at a configured time?
+	// > Default: False
+	Enable_Scheduled_Shutdown
+
+	// > Broadcast "shutting down for scheduled maintenance" warnings at these intervals.
+	// > Format is a list of hours:minutes:seconds, for example to warn only 5 seconds before:
+	// > ` Scheduled_Shutdown_Warnings
+	// > ` [
+	// > `     00:00:05
+	// > ` ]
+	// > Default starts at 30 minutes and counts down.
+	Scheduled_Shutdown_Warnings
+
+	// > Should the server automatically shutdown when a new version is detected?
+	// > Default: False
+	Enable_Update_Shutdown
+
+	// > If Enable_Update_Shutdown is true, we check for updates to this branch of the game.
+	// > (Unfortunately the server does not have a way to automatically determine the current beta branch.)
+	// > Default: public
+	Update_Steam_Beta_Name
+
+	// > Broadcast "shutting down for update" warnings at these intervals.
+	// > Refer to Scheduled_Shutdown_Warnings for an explanation of the format.
+	// > Default starts at 3 minutes and counts down.
+	Update_Shutdown_Warnings
+
+	// > Should vanilla text chat messages always use rich text?
+	// > Servers with plugins may want to enable because IMGUI does not fade out rich text.
+	// > Kept because plugins might be setting this directly, but it no longer does anything.
+	// > Default: False
+	Chat_Always_Use_Rich_Text
+
+	// > Should the EconInfo.json hash be checked by the server?
+	// > Default: True
+	Validate_EconInfo_Hash
+
+	// > Documentation: https://docs.smartlydressedgames.com/en/stable/servers/fake-ip.html
+	// > Default: False
+	Use_FakeIP
+
+	// > If greater than zero, vehicles with XZ position outside this threshold are saved in the center of the map.
+	// > By default, vehicles outside ±40 km are teleported into the map.
+	// > Intended to help with physics issues caused by vehicles far out in space. (public issue #4465)
+	// > Default: 40000
+	Reset_Vehicles_Outside_Horizontal_Distance
+}
+
+UnityEvents
+{
+	// > Should ServerTextChatMessenger be allowed to broadcast?
+	// > Default: False
+	Allow_Server_Messages
+
+	// > Should ServerTextChatMessenger be allowed to execute commands?
+	// > Default: False
+	Allow_Server_Commands
+
+	// > Should ClientTextChatMessenger be allowed to broadcast?
+	// > Default: False
+	Allow_Client_Messages
+
+	// > Should ClientTextChatMessenger be allowed to execute commands?
+	// > Default: False
+	Allow_Client_Commands
+}
+
+Items
+{
+	// > How long (in seconds) before an item dropped by a player is despawned.
+	// > Default: 600
+	Despawn_Dropped_Time 14400
+
+	// > Percentage [0 to 1] of item spawns to use.
+	// > For example, if set to 0.2 and level has 100 item spawns, max 20 items will spawn at a time.
+	// > Easy: 0.35    Normal: 0.35    Hard: 0.15
+	Spawn_Chance
+
+	// > How long (in seconds) before a spawned item is despawned.
+	// > (For example, an item nobody wants to pick up.)
+	// > Default: 900
+	Despawn_Natural_Time
+
+	// > When less than the target amount of items are dropped (determined by Spawn_Chance), a new
+	// > item is spawned approximately this often (in seconds).
+	// > Easy: 50    Normal: 100    Hard: 150
+	Respawn_Time
+
+	// > Percentage [0 to 1] probability of item spawning at max quality.
+	// > Easy: 0.1    Normal: 0.1    Hard: 0.01
+	Quality_Full_Chance
+
+	// > When an item spawns without max quality, the random quality is scaled by this factor.
+	// > For example, 0.5 halves the initial quality.
+	// > Default: 1
+	Quality_Multiplier
+
+	// > Percentage [0 to 1] probability of gun spawning with full ammo.
+	// > Easy: 0.1    Normal: 0.05    Hard: 0.025
+	Gun_Bullets_Full_Chance
+
+	// > When a gun spawns without full ammo, the random amount is scaled by this factor.
+	// > Easy: 1    Normal: 0.25    Hard: 0.1
+	Gun_Bullets_Multiplier
+
+	// > Percentage [0 to 1] probability of magazines spawning with full ammo.
+	// > Easy: 0.1    Normal: 0.05    Hard: 0.025
+	Magazine_Bullets_Full_Chance
+
+	// > When a magazine spawns without full ammo, the random amount is scaled by this factor.
+	// > Easy: 1    Normal: 0.5    Hard: 0.25
+	Magazine_Bullets_Multiplier
+
+	// > Percentage [0 to 1] probability of non-magazines spawning with full amount.
+	// > (E.g., ammo boxes.)
+	// > Easy: 0.1    Normal: 0.05    Hard: 0.025
+	Crate_Bullets_Full_Chance
+
+	// > When a non-magazine spawns without full amount, the random amount is scaled by this factor.
+	// > (E.g., ammo boxes.)
+	// > Easy: 1    Normal: 1    Hard: 0.75
+	Crate_Bullets_Multiplier
+
+	// > Original option for disabling item quality. If false, items spawn at 100% quality and
+	// > their quality doesn't decrease. For backwards compatibility, the newer per-item-type
+	// > durability options are ignored if this is off.
+	// > Easy: False    Normal: True    Hard: True
+	Has_Durability
+
+	// > Food-specific replacement for Has_Durability. If true, food spawns at 100% quality.
+	// > Easy: True    Normal: False    Hard: False
+	Food_Spawns_At_Full_Quality
+
+	// > Water-specific replacement for Has_Durability. If true, water spawns at 100% quality.
+	// > Easy: True    Normal: False    Hard: False
+	Water_Spawns_At_Full_Quality
+
+	// > Clothing-specific replacement for Has_Durability. If true, clothing spawns at 100% quality.
+	// > Easy: True    Normal: False    Hard: False
+	Clothing_Spawns_At_Full_Quality
+
+	// > Weapon-specific replacement for Has_Durability. If true, weapons spawns at 100% quality.
+	// > Easy: True    Normal: False    Hard: False
+	Weapons_Spawn_At_Full_Quality
+
+	// > Fallback used when spawning an item that doesn't fit into one of the other quality/durability settings.
+	// > If true, items spawn at 100% quality.
+	// > Easy: True    Normal: False    Hard: False
+	Default_Spawns_At_Full_Quality
+
+	// > Clothing-specific replacement for Has_Durability. If false, clothing quality
+	// > doesn't decrease when damaged.
+	// > Easy: False    Normal: True    Hard: True
+	Clothing_Has_Durability
+
+	// > Melee and gun replacement for Has_Durability. If false, weapons quality
+	// > doesn't decrease when used.
+	// > Easy: False    Normal: True    Hard: True
+	Weapons_Have_Durability
+}
+
+Vehicles
+{
+	// > Seconds vehicle can be neglected before it begins taking damage.
+	// > Default: 604800
+	Decay_Time 1.45152E+07
+
+	// > Maximum number of naturally-spawned vehicles on "Tiny" size levels.
+	// > Default: 4
+	Max_Instances_Tiny 128
+
+	// > Maximum number of naturally-spawned vehicles on "Small" size levels.
+	// > Default: 8
+	Max_Instances_Small 128
+
+	// > Maximum number of naturally-spawned vehicles on "Medium" size levels.
+	// > Default: 16
+	Max_Instances_Medium 128
+
+	// > Maximum number of naturally-spawned vehicles on "Large" size levels.
+	// > Default: 32
+	Max_Instances_Large 128
+
+	// > Maximum number of naturally-spawned vehicles on "Insane" size levels.
+	// > Default: 64
+	Max_Instances_Insane 128
+
+	// > Vehicles are considered "natural" if they were spawned by the level as opposed to players or vendors.
+	// > If less than this many natural vehicles exist in the level, more will be spawned. The minimum of this or
+	// > Max_Instances is used. (I.e., if this value is higher than max instances the max instances value is used
+	// > instead.)
+	// > Default: 16
+	Min_Natural_Vehicles 128
+
+	// > After vehicle has been neglected for more than Decay_Time seconds it will begin taking this much damage per second.
+	// > Default: 0.1
+	Decay_Damage_Per_Second
+
+	// > Percentage [0 to 1] probability of spawning with a battery.
+	// > Easy: 1    Normal: 0.8    Hard: 0.25
+	Has_Battery_Chance
+
+	// > Percentage [0 to 1] minimum initial charge if spawning with a battery.
+	// > Easy: 0.8    Normal: 0.5    Hard: 0.1
+	Min_Battery_Charge
+
+	// > Percentage [0 to 1] maximum initial charge if spawning with a battery.
+	// > Easy: 1    Normal: 0.75    Hard: 0.3
+	Max_Battery_Charge
+
+	// > Percentage [0 to 1] probability of spawning with a tire per-wheel.
+	// > Easy: 1    Normal: 0.85    Hard: 0.7
+	Has_Tire_Chance
+
+	// > How long (in seconds) after vehicle explodes or gets stuck underwater before it despawns.
+	// > Default: 300
+	Respawn_Time
+
+	// > How long (in seconds) a locked vehicle can sit empty in the safezone before it is
+	// > automatically unlocked.
+	// > Default: 3600
+	Unlocked_After_Seconds_In_Safezone
+
+	// > Scales the amount of damage taken by vehicles.
+	// > For example, 0.5 halves the amount of damage dealt to vehicles.
+	// > Default: 1
+	Armor_Multiplier
+
+	// > Scales damage to the vehicle when an attached barricade obstructions an explosion.
+	// > For example, 0.5 halves the explosion damage when blocked by a barricade.
+	// > Default: 1
+	Child_Explosion_Armor_Multiplier
+
+	// > Scales the amount of damage taken by vehicles from non-"Heavy Weapon" guns.
+	// > For example, 2.0 doubles the amount of damage dealt to vehicles by non-"Heavy Weapon" guns.
+	// > Default: 1
+	Gun_Lowcal_Damage_Multiplier
+
+	// > Scales the amount of damage taken by vehicles from "Heavy Weapon" guns.
+	// > For example, 2.0 doubles the amount of damage dealt to vehicles by "Heavy Weapon" guns.
+	// > Default: 1
+	Gun_Highcal_Damage_Multiplier
+
+	// > Scales the amount of damage taken by vehicles from melee weapons and fists.
+	// > For example, 2.0 doubles the amount of damage dealt to vehicles by melee.
+	// > Default: 1
+	Melee_Damage_Multiplier
+
+	// > Scales the amount of HP restored by melee items like the Blowtorch.
+	// > For example, 2.0 doubles the amount of health restored by melee items.
+	// > Default: 1
+	Melee_Repair_Multiplier
+}
+
+Zombies
+{
+	// > Percentage [0 to 1] chance of zombie spawning as an electric boss.
+	// > Default: 0
+	Boss_Electric_Chance 0.005
+
+	// > Percentage [0 to 1] chance of zombie spawning as a ground-pounding boss.
+	// > Default: 0
+	Boss_Wind_Chance 0.005
+
+	// > Percentage [0 to 1] chance of zombie spawning as a fire-breathing boss.
+	// > Default: 0
+	Boss_Fire_Chance 0.005
+
+	// > Scales the amount of damage taken by zombies.
+	// > For example, 0.5 halves the amount of damage dealt to zombies.
+	// > Easy: 1.25    Normal: 1    Hard: 0.75
+	Armor_Multiplier 1
+
+	// > Scales amount of XP gained for killing a zombie during a horde beacon.
+	// > Default: 1
+	Beacon_Experience_Multiplier 2
+
+	// > Maximum number of loot drops from non-mega non-boss zombies.
+	// > Default: 1
+	Max_Drops 3
+
+	// > Maximum number of loot drops from non-boss mega zombies.
+	// > Default: 5
+	Max_Mega_Drops 6
+
+	// > If true, attacking a zombie uses the weapon's PvP damage values rather than zombie-specific damage.
+	// > Easy: False    Normal: False    Hard: True
+	Weapons_Use_Player_Damage false
+
+	// > Percentage [0 to 1] of zombie spawns to use.
+	// > For example, if set to 0.2 and an area has 100 zombie spawns, max 20 zombies will spawn at a time.
+	// > Easy: 0.2    Normal: 0.25    Hard: 0.3
+	Spawn_Chance
+
+	// > Percentage [0 to 1] chance of zombie dropping an item except when dropping more than one item.
+	// > Easy: 0.55    Normal: 0.5    Hard: 0.3
+	Loot_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a crawler.
+	// > Easy: 0    Normal: 0.15    Hard: 0.125
+	Crawler_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a sprinter.
+	// > Easy: 0    Normal: 0.15    Hard: 0.175
+	Sprinter_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a flanker.
+	// > Easy: 0    Normal: 0.025    Hard: 0.05
+	Flanker_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a burner.
+	// > Easy: 0    Normal: 0.025    Hard: 0.05
+	Burner_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as an acid spitter.
+	// > Easy: 0    Normal: 0.025    Hard: 0.05
+	Acid_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a ghost.
+	// > Default: 0
+	Spirit_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a Dying Light Volatile (crossover).
+	// > Default: 0
+	DL_Red_Volatile_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as a Dying Light Volatile (crossover).
+	// > Default: 0
+	DL_Blue_Volatile_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as the Elver final boss.
+	// > Default: 0
+	Boss_Elver_Stomper_Chance
+
+	// > Percentage [0 to 1] chance of zombie spawning as the Kuwait final boss.
+	// > Default: 0
+	Boss_Kuwait_Chance
+
+	// > How long (in seconds) before a dead zombie respawns by default.
+	// > Default: 360
+	Respawn_Day_Time
+
+	// > How long (in seconds) before a dead zombie respawns during a full moon.
+	// > Default: 30
+	Respawn_Night_Time
+
+	// > How long (in seconds) before a dead zombie respawns during a horde beacon.
+	// > Default: 0
+	Respawn_Beacon_Time
+
+	// > Minimum seconds between boss zombie spawns for players doing quests.
+	// > Players were abusing the spawns to farm boss tier loot.
+	// > Default: 600
+	Quest_Boss_Respawn_Interval
+
+	// > Scales the amount of damage dealt by zombies.
+	// > For example, 2.0 doubles the amount of damage from zombie attacks.
+	// > Easy: 0.75    Normal: 1    Hard: 1.5
+	Damage_Multiplier
+
+	// > Scales the amount of damage taken by zombies when attacked from behind.
+	// > Only certain weapons quality for this modifier.
+	// > Default: 1.25
+	Backstab_Multiplier
+
+	// > Weapon damage multiplier against body, arms, legs. Useful for headshot-only mode.
+	// > Default: 1
+	NonHeadshot_Armor_Multiplier
+
+	// > Scales amount of XP gained for killing a zombie during the full moon.
+	// > Default: 2
+	Full_Moon_Experience_Multiplier
+
+	// > Minimum number of loot drops from non-mega non-boss zombies.
+	// > Loot_Chance applies if the rolled number of drops between [min, max] is one.
+	// > Default: 1
+	Min_Drops
+
+	// > Minimum number of loot drops from non-boss mega zombies.
+	// > Loot_Chance applies if the rolled number of drops between [min, max] is one.
+	// > Default: 5
+	Min_Mega_Drops
+
+	// > Minimum number of loot drops from boss zombies.
+	// > Loot_Chance applies if the rolled number of drops between [min, max] is one.
+	// > Default: 8
+	Min_Boss_Drops
+
+	// > Maximum number of loot drops from boss zombies.
+	// > Default: 10
+	Max_Boss_Drops
+
+	// > If true, all zombies are a bit slower, making it easier to escape them.
+	// > Easy: True    Normal: False    Hard: False
+	Slow_Movement
+
+	// > If false, nothing can stun zombies, making combat harder.
+	// > Easy: True    Normal: True    Hard: False
+	Can_Stun
+
+	// > If true, only certain weapons and attacks can stun zombie (e.g., backstabs).
+	// > Not applicable if Can_Stun is false.
+	// > Easy: False    Normal: False    Hard: True
+	Only_Critical_Stuns
+
+	// > If true, zombies will attack barricades obstructing their movement.
+	// > Default: True
+	Can_Target_Barricades
+
+	// > If true, zombies will attack structures obstructing their movement.
+	// > Default: True
+	Can_Target_Structures
+
+	// > If true, zombies will attack vehicles obstructing their movement.
+	// > Default: True
+	Can_Target_Vehicles
+
+	// > If true, zombies will attack level objects (e.g., fences) obstructing their movement.
+	// > Default: True
+	Can_Target_Objects
+
+	// > If greater than zero, maximum number of items a horde beacon can drop.
+	// > Useful to clamp the number of drops when a large number of players participate.
+	// > Default: 0
+	Beacon_Max_Rewards
+
+	// > If greater than zero, maximum player count for horde beacon loot scaling.
+	// > Useful to clamp the number of drops when a large number of players participate.
+	// > Default: 0
+	Beacon_Max_Participants
+
+	// > Scales total number of horde beacon loot drops, applied before Beacon_Max_Rewards.
+	// > Default: 1
+	Beacon_Rewards_Multiplier
+}
+
+Animals
+{
+	// > Scales the amount of damage dealt by animals.
+	// > For example, 2.0 doubles the amount of damage from animal attacks.
+	// > Easy: 0.75    Normal: 1    Hard: 1.5
+	Damage_Multiplier 1.15
+
+	// > Scales the amount of damage taken by animals.
+	// > For example, 0.5 halves the amount of damage dealt to animals.
+	// > Easy: 1.25    Normal: 1    Hard: 0.75
+	Armor_Multiplier 1
+
+	// > If true, attacking an animal uses the weapon's PvP damage values rather than animal-specific damage.
+	// > Easy: False    Normal: False    Hard: True
+	Weapons_Use_Player_Damage false
+
+	// > How long (in seconds) before a dead animal respawns.
+	// > Default: 180
+	Respawn_Time
+
+	// > Maximum number of animals on "Tiny" size levels.
+	// > Default: 4
+	Max_Instances_Tiny
+
+	// > Maximum number of animals on "Small" size levels.
+	// > Default: 8
+	Max_Instances_Small
+
+	// > Maximum number of animals on "Medium" size levels.
+	// > Default: 16
+	Max_Instances_Medium
+
+	// > Maximum number of animals on "Large" size levels.
+	// > Default: 32
+	Max_Instances_Large
+
+	// > Maximum number of animals on "Insane" size levels.
+	// > Default: 64
+	Max_Instances_Insane
+}
+
+Barricades
+{
+	// > How long (in seconds) since the barricade owner/group last played before the barricade won't be saved.
+	// > If the server is offline for more than half the Decay_Time, all decay timers are reset.
+	// > Default: 604800
+	Decay_Time 14515200
+
+	// > Scales the amount of damage taken by "Armor Tier: Low" barricades.
+	// > For example, 0.5 halves the amount of damage dealt to barricades.
+	// > Default: 1
+	Armor_Lowtier_Multiplier
+
+	// > Scales the amount of damage taken by "Armor Tier: High" barricades.
+	// > For example, 0.5 halves the amount of damage dealt to barricades.
+	// > Default: 0.5
+	Armor_Hightier_Multiplier
+
+	// > Scales the amount of damage taken by barricades from non-"Heavy Weapon" guns.
+	// > For example, 2.0 doubles the amount of damage dealt to barricades by non-"Heavy Weapon" guns.
+	// > Default: 1
+	Gun_Lowcal_Damage_Multiplier
+
+	// > Scales the amount of damage taken by barricades from "Heavy Weapon" guns.
+	// > For example, 2.0 doubles the amount of damage dealt to barricades by "Heavy Weapon" guns.
+	// > Default: 1
+	Gun_Highcal_Damage_Multiplier
+
+	// > Scales the amount of damage taken by barricades from melee weapons and fists.
+	// > For example, 2.0 doubles the amount of damage dealt to barricades by melee.
+	// > Default: 1
+	Melee_Damage_Multiplier
+
+	// > Scales the amount of HP restored by melee items like the Blowtorch.
+	// > For example, 2.0 doubles the amount of health restored by melee items.
+	// > Default: 1
+	Melee_Repair_Multiplier
+
+	// > Should players be allowed to build on their vehicles?
+	// > Default: True
+	Allow_Item_Placement_On_Vehicle
+
+	// > Should players be allowed to build traps (e.g. barbed wire) on their vehicles?
+	// > Default: True
+	Allow_Trap_Placement_On_Vehicle
+
+	// > Furthest away from colliders a player can build an item onto their vehicle.
+	// > Default: 64
+	Max_Item_Distance_From_Hull
+
+	// > Furthest away from colliders a player can build a trap (e.g. barbed wire) onto their vehicle.
+	// > Default: 16
+	Max_Trap_Distance_From_Hull
+}
+
+Structures
+{
+	// > How long (in seconds) since the structure owner/group last played before the structure won't be saved.
+	// > If the server is offline for more than half the Decay_Time, all decay timers are reset.
+	// > Default: 604800
+	Decay_Time 14515200
+
+	// > Scales the amount of damage taken by "Armor Tier: Low" structures.
+	// > For example, 0.5 halves the amount of damage dealt to structures.
+	// > Default: 1
+	Armor_Lowtier_Multiplier
+
+	// > Scales the amount of damage taken by "Armor Tier: High" structures.
+	// > For example, 0.5 halves the amount of damage dealt to structures.
+	// > Default: 0.5
+	Armor_Hightier_Multiplier
+
+	// > Scales the amount of damage taken by structures from non-"Heavy Weapon" guns.
+	// > For example, 2.0 doubles the amount of damage dealt to structures by non-"Heavy Weapon" guns.
+	// > Default: 1
+	Gun_Lowcal_Damage_Multiplier
+
+	// > Scales the amount of damage taken by structures from "Heavy Weapon" guns.
+	// > For example, 2.0 doubles the amount of damage dealt to structures by "Heavy Weapon" guns.
+	// > Default: 1
+	Gun_Highcal_Damage_Multiplier
+
+	// > Scales the amount of damage taken by structures from melee weapons and fists.
+	// > For example, 2.0 doubles the amount of damage dealt to structures by melee.
+	// > Default: 1
+	Melee_Damage_Multiplier
+
+	// > Scales the amount of HP restored by melee items like the Blowtorch.
+	// > For example, 2.0 doubles the amount of health restored by melee items.
+	// > Default: 1
+	Melee_Repair_Multiplier
+}
+
+Players
+{
+	// > How quickly players food meter depletes.
+	// > Lower values burn food faster, higher values burn food slower.
+	// > Easy: 350    Normal: 300    Hard: 250
+	Food_Use_Ticks 1200
+
+	// > How quickly players starve to death.
+	// > Lower values kill the player faster, higher values kill the player slower.
+	// > Default: 15
+	Food_Damage_Ticks 50
+
+	// > How quickly players water meter depletes.
+	// > Lower values lose water faster, higher values lose water slower.
+	// > Easy: 320    Normal: 270    Hard: 220
+	Water_Use_Ticks 1000
+
+	// > How quickly players dehydrate to death.
+	// > Lower values kill the player faster, higher values kill the player slower.
+	// > Default: 20
+	Water_Damage_Ticks 60
+
+	// > Amount of health players spawn with. [0 to 100]
+	// > Default: 100
+	Health_Default
+
+	// > Player must have more than this amount of food to begin regenerating health.
+	// > Default: 90
+	Health_Regen_Min_Food
+
+	// > Player must have more than this amount of water to begin regenerating health.
+	// > Default: 90
+	Health_Regen_Min_Water
+
+	// > How quickly players health regenerates with sufficient food and water.
+	// > Lower values regenerate health faster, higher values regenerate health slower.
+	// > Default: 60
+	Health_Regen_Ticks
+
+	// > Amount of food players spawn with. [0 to 100]
+	// > Easy: 100    Normal: 100    Hard: 85
+	Food_Default
+
+	// > Amount of water players spawn with. [0 to 100]
+	// > Easy: 100    Normal: 100    Hard: 85
+	Water_Default
+
+	// > Amount of immunity players spawn with. [0 to 100]
+	// > Default: 100
+	Virus_Default
+
+	// > When immunity is below this amount it will gradually begin depleting.
+	// > Default: 50
+	Virus_Infect
+
+	// > How quickly players immunity depletes when below Virus_Infect.
+	// > Lower values deplete faster, higher values deplete slower.
+	// > Default: 125
+	Virus_Use_Ticks
+
+	// > How quickly players die at zero immunity.
+	// > Lower values kill the player faster, higher values kill the player slower.
+	// > Default: 25
+	Virus_Damage_Ticks
+
+	// > How quickly broken legs heal automatically.
+	// > Depends on Can_Fix_Legs.
+	// > Lower values heal faster, higher values heal slower.
+	// > Default: 750
+	Leg_Regen_Ticks
+
+	// > How frequently players lose health while bleeding.
+	// > Lower values kill the player faster, higher values kill the player slower.
+	// > Default: 10
+	Bleed_Damage_Ticks
+
+	// > How quickly bleeding heals automatically.
+	// > Depends on Can_Stop_Bleeding.
+	// > Lower values heal faster, higher values heal slower.
+	// > Default: 750
+	Bleed_Regen_Ticks
+
+	// > Scales the amount of damage taken by players.
+	// > For example, 0.5 halves the amount of damage dealt to players.
+	// > Default: 1
+	Armor_Multiplier
+
+	// > Scales the amount of XP gained from all activities.
+	// > Easy: 1.5    Normal: 1    Hard: 1.5
+	Experience_Multiplier
+
+	// > Scales the radius within zombies and animals will detect the player.
+	// > Easy: 0.5    Normal: 1    Hard: 1.25
+	Detect_Radius_Multiplier
+
+	// > How close an attack is to a player to be considered aggressive.
+	// > For example, when a bullet passes within this distance of a player the shooter is
+	// > considered the aggressor.
+	// > Default: 8
+	Ray_Aggressor_Distance
+
+	// > Percentage [0 to 1] of skill levels to retain when killed by another player.
+	// > Default: 1
+	Lose_Skills_PvP
+
+	// > Percentage [0 to 1] of skill levels to retain when killed by the environment (e.g., zombies).
+	// > Default: 1
+	Lose_Skills_PvE
+
+	// > Number of skill levels to remove when killed by another player.
+	// > Easy: 0    Normal: 1    Hard: 2
+	Lose_Skill_Levels_PvP
+
+	// > Number of skill levels to remove when killed by the environment (e.g., zombies).
+	// > Easy: 0    Normal: 1    Hard: 2
+	Lose_Skill_Levels_PvE
+
+	// > Percentage [0 to 1] of XP to retain when killed by another player.
+	// > Default: 0.5
+	Lose_Experience_PvP
+
+	// > Percentage [0 to 1] of XP to retain when killed by the environment (e.g., zombies).
+	// > Default: 0.5
+	Lose_Experience_PvE
+
+	// > Scales XP cost to purchase/upgrade skills.
+	// > Default: 1
+	Skill_Cost_Multiplier
+
+	// > Percentage [0 to 1] chance to lose each inventory item when killed by another player.
+	// > Depends on Lose_Clothes_PvP because losing storage will drop contained items.
+	// > Default: 1
+	Lose_Items_PvP
+
+	// > Percentage [0 to 1] chance to lose each inventory item when killed by the environment (e.g., zombies).
+	// > Depends on Lose_Clothes_PvE because losing storage will drop contained items.
+	// > Default: 1
+	Lose_Items_PvE
+
+	// > If true, drop all clothing items when killed by another player.
+	// > Default: True
+	Lose_Clothes_PvP
+
+	// > If true, drop all clothing items when killed by the environment (e.g., zombies).
+	// > Default: True
+	Lose_Clothes_PvE
+
+	// > If true, drop primary and secondary weapon when killed by another player.
+	// > Default: True
+	Lose_Weapons_PvP
+
+	// > If true, drop primary and secondary weapon when killed by the environment (e.g., zombies).
+	// > Default: True
+	Lose_Weapons_PvE
+
+	// > If false, players have no health loss from falling long distances.
+	// > Default: True
+	Can_Hurt_Legs
+
+	// > If false, players cannot break their leg when falling long distances.
+	// > Easy: False    Normal: True    Hard: True
+	Can_Break_Legs
+
+	// > If false, broken legs cannot automatically heal themselves after Leg_Regen_Ticks.
+	// > Easy: True    Normal: True    Hard: False
+	Can_Fix_Legs
+
+	// > If false, damage cannot cause players to bleed.
+	// > Easy: False    Normal: True    Hard: True
+	Can_Start_Bleeding
+
+	// > If false, bleeding cannot automatically heal itself after Bleed_Regen_Ticks.
+	// > Easy: True    Normal: True    Hard: False
+	Can_Stop_Bleeding
+
+	// > Should all skills default to max level?
+	// > Default: False
+	Spawn_With_Max_Skills
+
+	// > Should cardio, diving, exercise, and parkour default to max level?
+	// > Default: False
+	Spawn_With_Stamina_Skills
+
+	// > If true, skills related to player's skillset/speciality are half cost.
+	// > Default: True
+	Skillset_Reduces_Skill_Cost
+
+	// > If true, skills related to player's skillset/speciality cannot lose levels on death.
+	// > Default: True
+	Skillset_Prevents_Skill_Loss
+
+	// > If true, prevent levels from modifying skill starting levels, costs, and max levels.
+	// > Default: False
+	Prevent_Level_Skill_Overrides
+
+	// > Should guns with Instakill Headshots (snipers) bypass armor?
+	// > Easy: False    Normal: False    Hard: True
+	Allow_Instakill_Headshots
+
+	// > Should each character slot have separate savedata?
+	// > Default: False
+	Allow_Per_Character_Saves
+
+	// > If true, players will be kicked if their skin color is too similar to one of the level's terrain colors.
+	// > Default: True
+	Enable_Terrain_Color_Kick
+}
+
+Objects
+{
+	// > Scales how long before interactables like fridges automatically close.
+	// > Default: 1
+	Binary_State_Reset_Multiplier
+
+	// > Scales how long before sources of fuel in the world are automatically partially refilled.
+	// > Default: 1
+	Fuel_Reset_Multiplier
+
+	// > Scales how long before sources of water in the world are automatically partially refilled.
+	// > Default: 1
+	Water_Reset_Multiplier
+
+	// > Scales how long before trees, rocks, and bushes in the world grow back.
+	// > Default: 1
+	Resource_Reset_Multiplier
+
+	// > Scales number of items dropped by resources like trees and rocks.
+	// > Default: 1
+	Resource_Drops_Multiplier
+
+	// > Scales how long before destructible objects (e.g., fences) automatically repair.
+	// > Default: 1
+	Rubble_Reset_Multiplier
+
+	// > Should holiday-specific objects be able to drop special items?
+	// > For example, whether christmas presents contain guns.
+	// > Default: True
+	Allow_Holiday_Drops
+
+	// > Should barricades placed on tree stumps prevent the tree from growing back
+	// > while the server is running?
+	// > Default: True
+	Items_Obstruct_Tree_Respawns
+}
+
+Events
+{
+	// > Minimum number of in-game days between legacy rain events.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 2.3
+	Rain_Frequency_Min
+
+	// > Maximum number of in-game days between legacy rain events.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 5.6
+	Rain_Frequency_Max
+
+	// > Minimum number of in-game days a legacy rain event lasts. Zero turns off legacy rain.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 0.05
+	Rain_Duration_Min
+
+	// > Maximum number of in-game days a legacy rain event lasts. Zero turns off legacy rain.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 0.15
+	Rain_Duration_Max
+
+	// > Minimum number of in-game days between legacy snow events.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 1.3
+	Snow_Frequency_Min
+
+	// > Maximum number of in-game days between legacy snow events.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 4.6
+	Snow_Frequency_Max
+
+	// > Minimum number of in-game days a legacy snow event lasts. Zero turns off legacy snow.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 0.2
+	Snow_Duration_Min
+
+	// > Maximum number of in-game days a legacy snow event lasts. Zero turns off legacy snow.
+	// > Only applicable for backwards compatibility with levels using the legacy weather features.
+	// > Default: 0.5
+	Snow_Duration_Max
+
+	// > Scales number of in-game days between weather events. (Levels using the newer weather
+	// > features can have multiple weather types with different frequencies.) If this was
+	// > accidentally set to a high value you can use the "/weather 0" command to reschedule
+	// > the next weather event.
+	// > 
+	// > Lower values cause more frequent weather, higher values cause less frequent weather.
+	// > (Misnomer, sorry!)
+	// > Default: 1
+	Weather_Frequency_Multiplier
+
+	// > Scales number of in-game days a weather event lasts. (Levels using the newer weather
+	// > features can have multiple weather types with different durations.)
+	// > Zero turns off weather entirely.
+	// > Default: 1
+	Weather_Duration_Multiplier
+
+	// > Minimum number of in-game days between airdrops. Depends on Use_Airdrops.
+	// > Default: 0.8
+	Airdrop_Frequency_Min
+
+	// > Maximum number of in-game days between airdrops. Depends on Use_Airdrops.
+	// > Default: 6.5
+	Airdrop_Frequency_Max
+
+	// > How fast (in meters per second) the airdrop plane flies across the level.
+	// > Lower values give players more time to react and chase the airplane.
+	// > Default: 128
+	Airdrop_Speed
+
+	// > Amount of upward force applied to the carepackage, resisting gravity.
+	// > Higher values require players to wait longer for the carepackage.
+	// > (This isn't intuitive, sorry!)
+	// > Default: 9.5
+	Airdrop_Force
+
+	// > Minimum number of teams needed to start an arena match.
+	// > Default: 2
+	Arena_Min_Players
+
+	// > Base damage per second while standing outside the arena field.
+	// > Default: 9
+	Arena_Compactor_Damage
+
+	// > Accumulating additional damage per second while standing outside the arena field.
+	// > Default: 1
+	Arena_Compactor_Extra_Damage_Per_Second
+
+	// > How long (in seconds) between match ready and teleporting players into the arena.
+	// > Default: 5
+	Arena_Clear_Timer
+
+	// > How long (in seconds) after a winner is announced to wait before restarting.
+	// > Default: 10
+	Arena_Finale_Timer
+
+	// > How long (in seconds) to wait in intermission before starting the next match.
+	// > Default: 15
+	Arena_Restart_Timer
+
+	// > How long (in seconds) before first arena circle starts shrinking.
+	// > Default: 1
+	Arena_Compactor_Delay_Timer
+
+	// > How long (in seconds) after arena circle finishes shrinking to start shrinking again.
+	// > Default: 5
+	Arena_Compactor_Pause_Timer
+
+	// > Should airplanes fly over the level dropping carepackages?
+	// > Default: True
+	Use_Airdrops
+
+	// > If true, arena selects multiple smaller circles within the initial circle.
+	// > Otherwise, arena cricle shrinks toward its initial center.
+	// > Default: True
+	Arena_Use_Compactor_Pause
+
+	// > How quickly (in meters per second) the arena radius shrinks on "Tiny" size levels.
+	// > Default: 0.5
+	Arena_Compactor_Speed_Tiny
+
+	// > How quickly (in meters per second) the arena radius shrinks on "Small" size levels.
+	// > Default: 1.5
+	Arena_Compactor_Speed_Small
+
+	// > How quickly (in meters per second) the arena radius shrinks on "Medium" size levels.
+	// > Default: 3
+	Arena_Compactor_Speed_Medium
+
+	// > How quickly (in meters per second) the arena radius shrinks on "Large" size levels.
+	// > Default: 4.5
+	Arena_Compactor_Speed_Large
+
+	// > How quickly (in meters per second) the arena radius shrinks on "Insane" size levels.
+	// > Default: 6
+	Arena_Compactor_Speed_Insane
+
+	// > Percentage [0 to 1] of arena circle radius retained when selecting next smaller circle.
+	// > Depends on Arena_Use_Compactor_Pause.
+	// > Default: 0.5
+	Arena_Compactor_Shrink_Factor
+}
+
+Gameplay
+{
+	// > Should a hit confirmation be shown when players deal damage?
+	// > Easy: True    Normal: True    Hard: False
+	Hitmarkers true
+
+	// > Should a crosshair be visible while holding a gun?
+	// > Easy: True    Normal: True    Hard: False
+	Crosshair true
+
+	// > Should group members and similar info be visible on the in-game map?
+	// > Easy: True    Normal: True    Hard: False
+	Group_Map true
+
+	// > Blueprints requiring a repair skill level higher than this cannot be crafted.
+	// > Restricts players from repairing higher-tier items.
+	// > Default: 3
+	Repair_Level_Max
+
+	// > Should bullets be affected by gravity and travel time?
+	// > Easy: False    Normal: True    Hard: True
+	Ballistics
+
+	// > Should the player have permanent access to a "paper" map of the level even when they
+	// > don't have the associated in-game item?
+	// > Easy: True    Normal: False    Hard: False
+	Chart
+
+	// > Should the player have permanent access to a GPS map of the level even when they
+	// > don't have the associated in-game item?
+	// > Default: False
+	Satellite
+
+	// > Should the player have permanent access to their compass heading HUD even when they
+	// > don't have the associated in-game item?
+	// > Default: False
+	Compass
+
+	// > Should group member names be visible through walls?
+	// > Default: True
+	Group_HUD
+
+	// > Should group connections be shown on player list?
+	// > Default: True
+	Group_Player_List
+
+	// > Should Steam clans/groups be enables as in-game groups?
+	// > Default: True
+	Allow_Static_Groups
+
+	// > Should players be allowed to create in-game groups and invite members of the server?
+	// > Default: True
+	Allow_Dynamic_Groups
+
+	// > If true, allow automatically creating an in-game group for members of your Steam lobby.
+	// > Requires Allow_Dynamic_Groups to be enabled as well.
+	// > Default: True
+	Allow_Lobby_Groups
+
+	// > Should the third-person camera extend out to the side?
+	// > If false, the third-person camera is centered over your character.
+	// > Default: True
+	Allow_Shoulder_Camera
+
+	// > Should players be allowed to kill themselves from the pause menu?
+	// > Default: True
+	Can_Suicide
+
+	// > Is friendly-fire within groups allowed?
+	// > Default: False
+	Friendly_Fire
+
+	// > Are sentry guns and beds allowed on vehicles?
+	// > Default: False
+	Bypass_Buildable_Mobility
+
+	// > If true, buildables can be placed in "no building" zones.
+	// > Default: False
+	Bypass_No_Building_Zones
+
+	// > If true, buildables can be placed in safezones.
+	// > Default: False
+	Bypass_Building_In_Safezones
+
+	// > Should holiday (Halloween and Christmas) content like NPC outfits and decorations be loaded?
+	// > Default: True
+	Allow_Holidays
+
+	// > Can "freeform" barricades be placed in the world?
+	// > Default: True
+	Allow_Freeform_Buildables
+
+	// > Can "freeform" barricades be placed on vehicles?
+	// > Default: True
+	Allow_Freeform_Buildables_On_Vehicles
+
+	// > If true, aim flinches away from center when damaged.
+	// > Default: True
+	Enable_Damage_Flinch
+
+	// > If true, camera will shake near explosions. Can also be toned down client-side in Options menu.
+	// > Default: True
+	Enable_Explosion_Camera_Shake
+
+	// > If true, crafting blueprints can require nearby workstations.
+	// > If false, only the backwards-compatibility "Heat Source" vanilla crafting tag can be required. This
+	// > functions identically to the cooking-skill-also-requires-heat behavior from before.
+	// > Default: True
+	Enable_Workstation_Requirements
+
+	// > If true, client-side options like damage flinch, explosion camera shake, viewmodel bob are ignored.
+	// > Default: False
+	Disable_Motion_Sickness_Options
+
+	// > If true, minimum foliage density of "Low" is enforced.
+	// > Default: False
+	Disable_Foliage_Off
+
+	// > If true, hide viewmodel while aiming a dual-render scope and show a 2D overlay instead.
+	// > Useful for backwards compatibility with modded scopes that have a small enough
+	// > dual-render surface to zoom-*out* when aiming in.
+	// > Default: False
+	Use_2D_Scope_Overlay
+
+	// > If true, a challenge must be completed before catching a fish.
+	// > Only applicable for supported maps and fishing rods. (I.e., not older custom maps.)
+	// > Default: True
+	Enable_Fishing_Catch_Challenge
+
+	// > How long (in seconds) before a player can leave the server through the pause menu.
+	// > Default: 10
+	Timer_Exit
+
+	// > How long (in seconds) after death before a player can respawn.
+	// > Default: 10
+	Timer_Respawn
+
+	// > How long (in seconds) after death before a player can respawn at their bed.
+	// > Default: 30
+	Timer_Home
+
+	// > How long (in seconds) after a player requests to leave an in-game "dynamic" group
+	// > before they are actually removed. Gives group members time to take cover.
+	// > Default: 30
+	Timer_Leave_Group
+
+	// > Maximum number of players invitable to an in-game "dynamic" group.
+	// > Depends on Allow_Dynamic_Groups.
+	// > Default: 0
+	Max_Group_Members
+
+	// > Scales velocity added to players by explosion knock-back.
+	// > Default: 1
+	Explosion_Launch_Speed_Multiplier
+
+	// > Scales midair input change in player direction.
+	// > Default: 1
+	AirStrafing_Acceleration_Multiplier
+
+	// > Scales midair decrease in speed while faster than max walk speed.
+	// > Default: 1
+	AirStrafing_Deceleration_Multiplier
+
+	// > Scales magnitude of recoil while using first-person perspective.
+	// > Default: 1
+	FirstPerson_RecoilMultiplier
+
+	// > Scales magnitude of recoil while aiming in first-person perspective.
+	// > Default: 1
+	FirstPerson_AimingRecoilMultiplier
+
+	// > Scales magnitude of recoil inversely with zoom level while aiming in first-person perspective.
+	// > Easy: 0.25    Normal: 0    Hard: 0
+	FirstPerson_AimingZoomRecoilReduction
+
+	// > Scales magnitude of recoil while using third-person perspective.
+	// > Easy: 1    Normal: 2    Hard: 2
+	ThirdPerson_RecoilMultiplier
+
+	// > Scales magnitude of bullet inaccuracy while using third-person perspective.
+	// > Easy: 1    Normal: 2    Hard: 2
+	ThirdPerson_SpreadMultiplier
+
+	// > [0 to 1] Scales how much the first-person move up and down while jumping/landing.
+	// > Default: 1
+	Viewmodel_AimingJumpLandMultiplier
+
+	// > [0 to 1] Scales how much the first-person arms move while ADS.
+	// > Easy: 0.2    Normal: 0.5    Hard: 1
+	Viewmodel_AimingMisalignmentMultiplier
+
+	// > Shortest amount of time before a fish takes the bait.
+	// > Easy: 35    Normal: 48    Hard: 48
+	Min_Fishing_Bite_Interval
+
+	// > Longest amount of time before a fish takes the bait.
+	// > Easy: 48    Normal: 60    Hard: 60
+	Max_Fishing_Bite_Interval
+
+	// > Multiplier for fishing bite interval when casting strength bar is full.
+	// > Default: 0.3
+	Fishing_MaxStrength_Bite_Interval_Multiplier
+}
